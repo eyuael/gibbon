@@ -24,6 +24,13 @@ jobs:
       with:
         java-version: ${{ matrix.java-version }}
         distribution: 'temurin'
+
+    - name: Install sbt
+      run: |
+        curl -L -o sbt.deb https://github.com/sbt/sbt/releases/download/v1.9.8/sbt-1.9.8.deb
+        sudo dpkg -i sbt.deb
+        sudo apt-get update
+        sudo apt-get install sbt
     
     - name: Cache SBT
       uses: actions/cache@v4
