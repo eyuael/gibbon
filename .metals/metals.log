@@ -75,3 +75,7 @@ INFO: Unsupported notification method: $/setTrace
 2025.09.19 14:57:02 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
 Sept 19, 2025 5:43:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2025.09.19 17:50:40 INFO  compiling gibbon-build (1 scala source)
+2025.09.19 17:50:40 INFO  time: compiled gibbon-build in 0.65s
+2025.09.19 17:50:43 INFO  skipping build import with status 'Dismissed'
+2025.09.19 17:51:46 INFO  skipping build import with status 'Dismissed'
