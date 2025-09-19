@@ -1,0 +1,77 @@
+2025.09.19 14:46:22 INFO  Started: Metals version 1.6.2 in folders '/Users/eyuaelberhe/gibbon' for client Trae 1.100.3.
+Sept 19, 2025 2:46:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.09.19 14:46:26 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.09.19 14:46:26 ERROR WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+2025.09.19 14:46:26 ERROR WARNING: sun.misc.Unsafe::objectFieldOffset has been called by scala.runtime.LazyVals$ (file:/opt/homebrew/Cellar/sbt/1.11.6/libexec/bin/sbt-launch.jar)
+2025.09.19 14:46:26 ERROR WARNING: Please consider reporting this to the maintainers of class scala.runtime.LazyVals$
+2025.09.19 14:46:26 ERROR WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+2025.09.19 14:46:26 ERROR WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+2025.09.19 14:46:26 ERROR WARNING: sun.misc.Unsafe::objectFieldOffset has been called by scala.runtime.LazyVals$ (file:/opt/homebrew/Cellar/sbt/1.11.6/libexec/bin/sbt-launch.jar)
+2025.09.19 14:46:26 ERROR WARNING: Please consider reporting this to the maintainers of class scala.runtime.LazyVals$
+2025.09.19 14:46:26 ERROR WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+2025.09.19 14:46:26 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.19 14:46:26 WARN  no build target for: /Users/eyuaelberhe/gibbon/project/metals.sbt
+2025.09.19 14:46:26 WARN  no build target for: /Users/eyuaelberhe/gibbon/project/project/metals.sbt
+2025.09.19 14:46:26 WARN  no build target for: /Users/eyuaelberhe/gibbon/project/metals.sbt
+2025.09.19 14:46:26 WARN  no build target for: /Users/eyuaelberhe/gibbon/project/project/metals.sbt
+2025.09.19 14:46:26 ERROR WARNING: A restricted method in java.lang.System has been called
+2025.09.19 14:46:26 ERROR WARNING: java.lang.System::load has been called by org.scalasbt.ipcsocket.NativeLoader in an unnamed module (file:/Users/eyuaelberhe/.sbt/boot/scala-2.12.20/org.scala-sbt/sbt/1.11.6/ipcsocket-1.6.3.jar)
+2025.09.19 14:46:26 ERROR WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+2025.09.19 14:46:26 ERROR WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+2025.09.19 14:46:26 ERROR 
+2025.09.19 14:46:27 INFO  [info] welcome to sbt 1.11.6 (Oracle Corporation Java 24.0.1)
+2025.09.19 14:46:27 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.19 14:46:27 INFO  [info] loading settings for project gibbon-build-build from metals.sbt...
+2025.09.19 14:46:28 INFO  [info] loading project definition from /Users/eyuaelberhe/gibbon/project/project
+2025.09.19 14:46:29 INFO  [info] loading settings for project gibbon-build from metals.sbt...
+2025.09.19 14:46:29 INFO  [info] loading project definition from /Users/eyuaelberhe/gibbon/project
+2025.09.19 14:46:30 INFO  [success] Generated .bloop/gibbon-build.json
+2025.09.19 14:46:30 INFO  [info] compiling 1 Scala source to /Users/eyuaelberhe/gibbon/project/target/scala-2.12/sbt-1.0/classes ...
+2025.09.19 14:46:30 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.20. Compiling...
+2025.09.19 14:46:32 INFO  no build target found for /Users/eyuaelberhe/gibbon/src/main/scala/example/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.19 14:46:32 INFO  no build target found for /Users/eyuaelberhe/gibbon/src/main/scala/example/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.19 14:46:33 INFO  [info]   Compilation completed in 2.993s.
+2025.09.19 14:46:33 INFO  [info] done compiling
+2025.09.19 14:46:33 INFO  [success] Total time: 5 s, completed 19 Sept 2025, 14:46:34
+2025.09.19 14:46:33 INFO  [info] loading settings for project root from build.sbt...
+2025.09.19 14:46:33 INFO  [info] set current project to gibbon (in build file:/Users/eyuaelberhe/gibbon/)
+2025.09.19 14:46:35 INFO  [success] Generated .bloop/root-test.json
+2025.09.19 14:46:35 INFO  [success] Generated .bloop/root.json
+2025.09.19 14:46:35 INFO  [success] Total time: 0 s, completed 19 Sept 2025, 14:46:35
+2025.09.19 14:46:35 INFO  time: ran 'sbt bloopInstall' in 8.71s
+2025.09.19 14:46:35 INFO  Attempting to connect to the build server...
+2025.09.19 14:46:35 INFO  No running Bloop server found, starting one.
+2025.09.19 14:46:37 INFO  Starting compilation server
+2025.09.19 14:46:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/eyuaelberhe/gibbon/.metals/bsp.trace.json or /Users/eyuaelberhe/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.19 14:46:39 INFO  Attempting to connect to the build server...
+2025.09.19 14:46:39 INFO  Found a Bloop server running
+2025.09.19 14:46:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/eyuaelberhe/gibbon/project/.metals/bsp.trace.json or /Users/eyuaelberhe/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.19 14:46:40 INFO  time: Connected to build server in 5.22s
+2025.09.19 14:46:39 INFO  Connected to Build server: Bloop v2.0.13
+2025.09.19 14:46:44 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/jar:file:/Library/Java/JavaVirtualMachines/jdk-24.0.1.jdk/Contents/Home/lib/src.zip!/jdk.javadoc/jdk/javadoc/internal/doclets/formats/html/HtmlConfiguration.java]
+2025.09.19 14:46:44 INFO  Java indexer failed with and exception. (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_failed-idex-java_14-46-44-044.md")
+2025.09.19 14:46:48 INFO  time: indexed workspace in 7.76s
+2025.09.19 14:46:48 INFO  compiling root (1 scala source)
+2025.09.19 14:46:49 INFO  compiling root-test (1 scala source)
+2025.09.19 14:46:49 INFO  time: compiled root in 1.2s
+2025.09.19 14:46:49 INFO  time: compiled root-test in 0.28s
+2025.09.19 14:54:56 INFO  compiling gibbon-build (1 scala source)
+2025.09.19 14:54:56 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.20. Compiling...
+2025.09.19 14:54:57 INFO  time: code lens generation in 1s
+2025.09.19 14:54:59 INFO  Compilation completed in 3.198s.
+2025.09.19 14:54:59 INFO  time: compiled gibbon-build in 4.24s
+2025.09.19 14:56:06 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.09.19 14:56:06 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.09.19 14:56:06 WARN  no build target for: /Users/eyuaelberhe/gibbon/project/metals.sbt
+2025.09.19 14:56:06 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.09.19 14:56:07 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.09.19 14:56:11 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.09.19 14:56:12 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.09.19 14:56:12 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.09.19 14:56:12 WARN  no build target for: /Users/eyuaelberhe/gibbon/project/metals.sbt
+2025.09.19 14:56:12 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.09.19 14:56:12 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.09.19 14:57:02 INFO  no build target found for /Users/eyuaelberhe/gibbon/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+Sept 19, 2025 5:43:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
