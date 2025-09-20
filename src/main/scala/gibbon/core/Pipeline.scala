@@ -4,9 +4,9 @@ import gibbon.core.Flow
 import gibbon.core.Sink
 
 final case class Pipeline[I,O](
-    source: Source[I],
-    flow: Flow[I,O],
-    sink: Sink[O]
+  source: Source[I],
+  flow: Flow[I,O],
+  sink: Sink[O]
 ) {
   def toRunnableGraph(): akka.stream.scaladsl.RunnableGraph[_] = {
     val base = source.toAkkaSource()

@@ -4,10 +4,10 @@ import java.time.Instant
 import scala.collection.mutable
 
 final case class Metric(
-    name: String,
-    value: Double,
-    timestamp: Instant,
-    tags: Map[String, String] = Map.empty
+  name: String,
+  value: Double,
+  timestamp: Instant,
+  tags: Map[String, String] = Map.empty
 )
 
 trait MetricsCollector {
