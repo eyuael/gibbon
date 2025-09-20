@@ -23,6 +23,10 @@ lazy val root = (project in file("."))
       logback,
       scalaLogging,
       
+      // Kafka (optional - uncomment when needed)
+      "com.typesafe.akka" %% "akka-stream-kafka" % "4.0.2",
+      "org.apache.kafka" % "kafka-clients" % "3.5.1",
+      
       // Testing
       munit % Test
     )
