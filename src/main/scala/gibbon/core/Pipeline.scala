@@ -8,7 +8,7 @@ final case class Pipeline[I,O](
   flow: Flow[I,O],
   sink: Sink[O]
 ) {
-  def toRunnableGraph(): akka.stream.scaladsl.RunnableGraph[_] = {
+  def toRunnableGraph(): akka.stream.scaladsl.RunnableGraph[Any] = {
     val base = source.toAkkaSource()
     val withFlows = base.via(flow.toAkkaFlow())
     withFlows.to(sink.toAkkaSink())

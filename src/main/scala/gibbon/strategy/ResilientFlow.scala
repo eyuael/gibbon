@@ -7,9 +7,9 @@ import gibbon.error.{ProcessingError, ErrorHandler, Stop, Resume, Restart}
 
 object ResilientFlow {
   def apply[I, O](
-    flow: Flow[I, O, _],
+    flow: Flow[I, O, Any],
     errorHandler: ErrorHandler
-  ): Flow[I, O, _] = {
+  ): Flow[I, O, Any] = {
     flow
       .map{ element => 
         Try(element) match {

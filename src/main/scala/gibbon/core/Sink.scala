@@ -1,10 +1,9 @@
 package gibbon.core
-import gibbon.core.Event
+
+import akka.stream.scaladsl.{Sink => AkkaSink}
+import scala.concurrent.Future
 
 trait Sink[E] {
-  def toAkkaSink(): akka.stream.scaladsl.Sink[E, _]
-}
-
-case object ConsoleSink extends Sink[Event[_,_]] {
-  def toAkkaSink() = akka.stream.scaladsl.Sink.foreach(println)
+  def toAkkaSink(): AkkaSink[E, Future[Unit]]
+  def close(): Future[Unit]
 }

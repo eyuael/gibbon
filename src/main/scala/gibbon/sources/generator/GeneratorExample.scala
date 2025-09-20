@@ -1,7 +1,7 @@
 package gibbon.sources.generator
 
 import akka.actor.ActorSystem
-import akka.stream.scaladsl.Sink
+import akka.stream.scaladsl.{Sink => AkkaSink}
 import scala.concurrent.duration._
 
 object GeneratorExample extends App {
@@ -18,7 +18,7 @@ object GeneratorExample extends App {
   
   println("=== String Events Example ===")
   stringGenerator.toAkkaSource()
-    .runWith(Sink.foreach(event => println(s"String Event: $event")))
+    .runWith(AkkaSink.foreach(event => println(s"String Event: $event")))
     .onComplete { _ =>
       // Example 2: Generate numeric events continuously
       println("\n=== Numeric Events Example ===")
@@ -28,7 +28,7 @@ object GeneratorExample extends App {
         eventsPerSecond = 3
       ).toAkkaSource()
         .take(5) // Take only first 5 events
-        .runWith(Sink.foreach(event => println(s"Numeric Event: $event")))
+        .runWith(AkkaSink.foreach(event => println(s"Numeric Event: $event")))
         .onComplete { _ =>
           // Example 3: Generate JSON events
           println("\n=== JSON Events Example ===")
@@ -36,7 +36,7 @@ object GeneratorExample extends App {
             eventsPerSecond = 1,
             maxEvents = Some(3)
           ).toAkkaSource()
-            .runWith(Sink.foreach(event => println(s"JSON Event: $event")))
+            .runWith(AkkaSink.foreach(event => println(s"JSON Event: $event")))
             .onComplete { _ =>
               system.terminate()
             }
