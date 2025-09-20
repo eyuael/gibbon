@@ -388,3 +388,222 @@ WARNING: Unmatched cancel notification for request id 1233
 2025.09.19 18:46:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-38-12-032.md")
 2025.09.19 18:46:49 INFO  compiling root (1 scala source)
 2025.09.19 18:46:49 INFO  time: compiled root in 0.37s
+2025.09.19 18:49:49 INFO  compiling root (1 scala source)
+2025.09.19 18:49:49 INFO  time: compiled root in 0.33s
+2025.09.19 18:49:54 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/EventContext.scala]
+2025.09.19 18:49:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:49:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+Sept 19, 2025 6:50:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3571
+2025.09.19 18:50:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:01 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:50:16 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+Exception in thread "pool-15-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2025.09.19 18:51:19 INFO  compiling root (1 scala source)
+2025.09.19 18:51:19 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:51:19 INFO  time: compiled root in 98ms
+2025.09.19 18:51:21 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-19/r_empty-definition_(root)_18-49-54-709.md")
+2025.09.19 18:51:29 INFO  compiling root (1 scala source)
+2025.09.19 18:51:29 INFO  time: compiled root in 0.28s
+2025.09.20 09:00:24 INFO  compiling root (1 scala source)
+2025.09.20 09:00:24 INFO  time: compiled root in 0.36s
+2025.09.20 09:00:30 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/EventStore.scala]
+2025.09.20 09:00:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:39 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:39 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+Sept 20, 2025 9:00:40 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.20 09:00:40 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/EventStore.scala]
+2025.09.20 09:00:40 INFO  java.lang.AssertionError: assertion failed: bad position: [61:59] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_compiler-error_(root)_09-00-40-187.md")
+2025.09.20 09:00:40 WARN  Could not find semantic tokens for: file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/EventStore.scala
+2025.09.20 09:00:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:00:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:01:24 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/EventStore.scala]
+2025.09.20 09:01:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-01-24-835.md")
+2025.09.20 09:01:24 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/EventStore.scala]
+2025.09.20 09:01:24 INFO  Could not find any locations for Some(SymbolOccurrence(Some(Range(2,6,2,16)),gibbon/EventStore#,DEFINITION)), printing index state (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-references_(root)_09-01-24-840.md")
+2025.09.20 09:01:26 WARN  Could not find 'Event' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.09.20 09:01:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:01:26 WARN  Could not find 'Event' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.09.20 09:01:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:01:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:01:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:01:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:01:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:01:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:01:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:02:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:02:01 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:02:01 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:02:02 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:02:02 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:02:03 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 09:02:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_09-00-30-589.md")
+2025.09.20 11:27:26 INFO  compiling root (1 scala source)
+2025.09.20 11:27:26 INFO  time: compiled root in 0.43s
+2025.09.20 11:27:28 INFO  compiling root (1 scala source)
+2025.09.20 11:27:28 INFO  time: compiled root in 0.3s
+2025.09.20 11:27:43 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/MetricsCollector.scala]
+2025.09.20 11:27:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-43-333.md")
+2025.09.20 11:27:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-43-333.md")
+2025.09.20 11:27:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-43-333.md")
+2025.09.20 11:27:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-43-333.md")
+2025.09.20 11:27:47 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/MetricsCollector.scala]
+2025.09.20 11:27:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:27:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:27:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:27:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:27:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:27:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:02 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:03 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:05 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+Sept 20, 2025 11:28:06 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.20 11:28:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/MetricsCollector.scala]
+2025.09.20 11:28:06 INFO  java.lang.AssertionError: assertion failed: bad position: [55:53] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_compiler-error_(root)_11-28-06-492.md")
+2025.09.20 11:28:06 WARN  Could not find semantic tokens for: file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/MetricsCollector.scala
+2025.09.20 11:28:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:56 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:28:57 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:29:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:29:28 INFO  compiling root (1 scala source)
+2025.09.20 11:29:28 INFO  time: compiled root in 95ms
+2025.09.20 11:29:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:29:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:29:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:29:38 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:29:39 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:29:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:29:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:29:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:29:57 INFO  compiling root (1 scala source)
+2025.09.20 11:29:57 INFO  time: compiled root in 0.34s
+2025.09.20 11:30:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+2025.09.20 11:30:28 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-27-47-393.md")
+Sept 20, 2025 11:35:39 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.09.20 11:35:44 INFO  compiling root (2 scala sources)
+2025.09.20 11:35:44 INFO  time: compiled root in 0.36s
+2025.09.20 11:35:48 INFO  compiling root (2 scala sources)
+2025.09.20 11:35:48 INFO  time: compiled root in 0.27s
+2025.09.20 11:35:50 INFO  compiling root (1 scala source)
+2025.09.20 11:35:50 INFO  time: compiled root in 0.29s
+2025.09.20 11:35:51 INFO  compiling root (2 scala sources)
+2025.09.20 11:35:51 INFO  time: compiled root in 0.34s
+2025.09.20 11:35:53 INFO  compiling root (2 scala sources)
+2025.09.20 11:35:53 INFO  time: compiled root in 0.27s
+2025.09.20 11:36:04 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/core/Pipeline.scala]
+2025.09.20 11:36:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:36:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:36:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:36:10 INFO  compiling root (1 scala source)
+2025.09.20 11:36:10 INFO  time: compiled root in 98ms
+2025.09.20 11:36:12 INFO  compiling root (2 scala sources)
+2025.09.20 11:36:12 INFO  time: compiled root in 46ms
+2025.09.20 11:36:12 INFO  compiling root (3 scala sources)
+2025.09.20 11:36:12 INFO  time: compiled root in 26ms
+2025.09.20 11:36:14 INFO  compiling root (4 scala sources)
+2025.09.20 11:36:14 INFO  time: compiled root in 39ms
+2025.09.20 11:36:14 INFO  compiling root (9 scala sources)
+2025.09.20 11:36:14 INFO  time: compiled root in 36ms
+2025.09.20 11:38:28 INFO  compiling root (9 scala sources)
+2025.09.20 11:38:28 INFO  time: compiled root in 0.1s
+2025.09.20 11:38:28 INFO  compiling root (9 scala sources)
+2025.09.20 11:38:28 INFO  time: compiled root in 37ms
+2025.09.20 11:38:42 INFO  compiling root (9 scala sources)
+2025.09.20 11:38:42 INFO  time: compiled root in 46ms
+2025.09.20 11:38:42 INFO  compiling root (9 scala sources)
+2025.09.20 11:38:42 INFO  time: compiled root in 28ms
+2025.09.20 11:38:47 INFO  compiling root (9 scala sources)
+2025.09.20 11:38:47 INFO  time: compiled root in 46ms
+2025.09.20 11:38:47 INFO  compiling root (9 scala sources)
+2025.09.20 11:38:47 INFO  time: compiled root in 35ms
+2025.09.20 11:38:50 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:38:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:38:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:01 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:05 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:16 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:20 WARN  Could not find 'Sink' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.09.20 11:39:20 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:21 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:22 WARN  Could not find 'Flow' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.09.20 11:39:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:23 WARN  Could not find 'Sink' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.09.20 11:39:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:24 WARN  Could not find 'Flow' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.09.20 11:39:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:24 INFO  compiling root (9 scala sources)
+2025.09.20 11:39:24 INFO  time: compiled root in 0.14s
+2025.09.20 11:39:27 WARN  Could not find 'Source' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.09.20 11:39:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-36-04-286.md")
+2025.09.20 11:39:32 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/src/main/scala/gibbon/core/Sink.scala]
+2025.09.20 11:39:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-39-32-619.md")
+2025.09.20 11:39:34 WARN  Could not find 'Event' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.09.20 11:39:34 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-20/r_empty-definition_(root)_11-39-32-619.md")
+2025.09.20 11:39:35 INFO  compiling root (9 scala sources)
+2025.09.20 11:39:35 INFO  time: compiled root in 0.52s
+2025.09.20 11:46:15 INFO  compiling root (1 scala source)
+2025.09.20 11:46:15 INFO  time: compiled root in 0.6s
+2025.09.20 11:46:19 INFO  compiling root (1 scala source)
+2025.09.20 11:46:19 INFO  time: compiled root in 0.31s
+2025.09.20 11:46:21 INFO  compiling root (1 scala source)
+2025.09.20 11:46:21 INFO  time: compiled root in 0.36s
