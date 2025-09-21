@@ -19,7 +19,10 @@ object Dependencies {
   // Logging
   lazy val logback = "ch.qos.logback" % "logback-classic" % "1.5.6"
   lazy val scalaLogging = "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5"
-  
+
+  // Redis - using the newer maintained fork
+  lazy val rediscala = "io.github.rediscala" %% "rediscala" % "1.13.0"
+
   // Kafka (optional dependencies)
   lazy val akkaStreamKafka = "com.typesafe.akka" %% "akka-stream-kafka" % "4.0.2"
   lazy val kafkaClients = "org.apache.kafka" % "kafka-clients" % "3.5.1"
