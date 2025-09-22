@@ -26,13 +26,13 @@ class RedisEventStore[K: Encoder: Decoder, V: Encoder: Decoder](
   override def getAll: Future[Map[K, V]] = {
     // Implementation for scanning all keys (use with caution in production)
     redis.keys("*").flatMap { keys =>
-      Future.traverse(keys) { keyBytes =>
-        val keyStr = keyBytes.utf8String
+      val keyValueFutures = keys.map { keyStr =>
         decode[K](keyStr).toOption match {
-          case Some(k) => get(k).map(v => k -> v)
-          case None => Future.successful(k -> None)
+          case Some(k) => get(k).map(v => v.map(k -> _))
+          case None => Future.successful(None)
         }
-      }.map(_.collect { case (k, Some(v)) => k -> v }.toMap)
+      }
+      Future.sequence(keyValueFutures).map(_.flatten.toMap)
     }
   }
 }

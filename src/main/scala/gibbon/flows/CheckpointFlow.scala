@@ -9,9 +9,9 @@ import scala.concurrent.duration.FiniteDuration
 import java.time.Instant
 import java.util.concurrent.atomic.AtomicLong
 
-class CheckpointingFlow[T](
+class CheckpointingFlow[T, K, V](
   pipelineId: String,
-  checkpointManager: CheckpointManager[_, _],
+  checkpointManager: CheckpointManager[K, V],
   checkpointInterval: FiniteDuration,
   extractOffset: T => Long
 )(implicit ec: ExecutionContext) extends Flow[T, T] {
@@ -25,7 +25,6 @@ class CheckpointingFlow[T](
         val currentCount = processedCount.incrementAndGet()
         val now = Instant.now()
         
-        // Check if we should create a checkpoint
         if (shouldCheckpoint(now, currentCount)) {
           createCheckpoint(element, currentCount, now)
           lastCheckpointTime = now
@@ -42,7 +41,7 @@ class CheckpointingFlow[T](
   
   private def createCheckpoint(element: T, count: Long, timestamp: Instant): Unit = {
     // Async checkpoint creation - don't block the stream
-    val checkpoint = Checkpoint(
+    val checkpoint = Checkpoint[K, V](
       pipelineId = pipelineId,
       offset = extractOffset(element),
       timestamp = timestamp,

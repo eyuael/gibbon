@@ -4,6 +4,9 @@ import scala.concurrent.{Future, ExecutionContext}
 import scala.concurrent.duration.FiniteDuration
 import java.time.Instant
 import io.circe._
+import io.circe.syntax._
+import io.circe.parser._
+import io.circe.generic.auto._
 import redis.RedisClient
 
 trait CheckpointManager[K, V] {
@@ -37,8 +40,32 @@ class RedisCheckpointManager[K: Encoder: Decoder, V: Encoder: Decoder](
   
   override def loadCheckpoint(pipelineId: String): Future[Option[Checkpoint[K, V]]] = {
     redis.get(checkpointKey(pipelineId))
-      .map(_.flatMap(decode[Checkpoint[K, V]](_).toOption))
+      .map(_.flatMap(byteString => decode[Checkpoint[K, V]](byteString.utf8String).toOption))
   }
   
-  // ... other methods
+  override def listCheckpoints(pipelineId: String): Future[List[CheckpointMetadata]] = {
+    val historyKey = checkpointHistoryKey(pipelineId)
+    redis.lrange(historyKey, 0, -1).map { checkpointStrings =>
+      checkpointStrings.flatMap { checkpointBytes =>
+        decode[Checkpoint[K, V]](checkpointBytes.utf8String).toOption.map { checkpoint =>
+          CheckpointMetadata(
+            pipelineId = checkpoint.pipelineId,
+            version = checkpoint.offset,
+            createdAt = checkpoint.timestamp,
+            checkpointType = Periodic // Default to Periodic since it's not stored in Checkpoint
+          )
+        }
+      }.toList
+    }
+  }
+  
+  override def deleteCheckpoint(pipelineId: String, version: Long): Future[Unit] = {
+    val key = checkpointKey(pipelineId)
+    val historyKey = checkpointHistoryKey(pipelineId)
+    
+    for {
+      _ <- redis.del(key)
+      _ <- redis.del(historyKey)
+    } yield ()
+  }
 }

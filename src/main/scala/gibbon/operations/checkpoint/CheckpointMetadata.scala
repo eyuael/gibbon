@@ -3,7 +3,7 @@ package gibbon.checkpoint
 import gibbon.core.Event
 import java.time.Instant
 
-case class Checkpoint[+K, +V](
+case class Checkpoint[K, V](
   pipelineId: String,
   offset: Long,
   timestamp: Instant,
