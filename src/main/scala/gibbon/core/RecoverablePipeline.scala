@@ -10,7 +10,8 @@ class RecoverablePipeline[I, O, K, V](
   source: Source[I],
   flow: Flow[I, O],
   sink: Sink[O],
-  checkpointManager: CheckpointManager[K, V]
+  checkpointManager: CheckpointManager[K, V],
+  extractOffset: I => Long = (element: I) => element.asInstanceOf[{def id: Long}].id // Default assumes element has id field
 )(implicit ec: ExecutionContext, system: ActorSystem) {
   
   def runWithRecovery(): Future[Any] = {
@@ -29,11 +30,15 @@ class RecoverablePipeline[I, O, K, V](
   private def runFromCheckpoint(checkpoint: Checkpoint[K, V]): Future[Any] = {
     // Skip to the checkpoint offset
     val recoveredSource = source.toAkkaSource()
-      .drop(checkpoint.offset) // Simplified - real implementation would be more sophisticated
+      .dropWhile { element => 
+        val elementOffset = extractOffset(element)
+        elementOffset <= checkpoint.offset
+      }
     
-    recoveredSource
+    val flowResult = recoveredSource
       .via(flow.toAkkaFlow())
-      .runWith(sink.toAkkaSink())
+    
+    flowResult.runWith(sink.toAkkaSink())
   }
   
   private def runFromBeginning(): Future[Any] = {

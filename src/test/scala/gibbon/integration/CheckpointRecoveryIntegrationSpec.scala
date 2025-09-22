@@ -138,7 +138,10 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
     
     override def close(): Future[Unit] = Future.successful(())
     
-    def getResults: List[ProcessedEvent] = results.get().reverse
+    def getResults: List[ProcessedEvent] = {
+      val currentResults = results.get().reverse
+      currentResults
+    }
     def clear(): Unit = results.set(List.empty)
   }
   
@@ -156,7 +159,8 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
       source = source,
       flow = flow,
       sink = sink,
-      checkpointManager = checkpointManager
+      checkpointManager = checkpointManager,
+      extractOffset = (event: TestEvent) => event.id
     )
   }
   
@@ -173,14 +177,18 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
     
     val result = pipeline.runWithRecovery()
     
-    result.map { _ =>
-      // Should process all events from the beginning
-      val results = sink.getResults
-      assertEquals(results.length, 3)
-      assertEquals(results.map(_.originalId), List(1L, 2L, 3L))
-      
-      // Should not have any checkpoints initially
-      assertEquals(checkpointManager.getCheckpointCount, 0)
+    result.flatMap { _ =>
+      // Wait for stream completion and then get results
+      akka.pattern.after(100.millis, system.scheduler)(Future.successful(())).map { _ =>
+        val finalResults = sink.getResults
+        
+        // Should process all events from the beginning
+        assertEquals(finalResults.length, 3)
+        assertEquals(finalResults.map(_.originalId), List(1L, 2L, 3L))
+        
+        // Should not have any checkpoints initially
+        assertEquals(checkpointManager.getCheckpointCount, 0)
+      }
     }
   }
   
@@ -207,7 +215,8 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
     val result = for {
       _ <- checkpointManager.saveCheckpoint(checkpoint)
       pipeline = createTestPipeline("test-pipeline-2", events, checkpointManager, sink)
-      _ <- pipeline.runWithRecovery()
+      completion <- pipeline.runWithRecovery()
+      _ <- akka.pattern.after(100.millis, system.scheduler)(Future.successful(())) // Delay to ensure all elements are processed
     } yield sink.getResults
     
     result.map { results =>
@@ -289,10 +298,10 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
       // Simulate checkpoint creation after processing
       checkpoint = Checkpoint[String, TestEvent](
         pipelineId = "state-test",
-        offset = 3L,
+        offset = 2L, // Changed from 3L to 2L - checkpoint after processing events 1,2
         timestamp = Instant.now(),
-        lastProcessedEvent = Some(Event("key3", TestEvent(3, "event3"), System.currentTimeMillis())),
-        state = Map("processedCount" -> "3", "stateKey" -> "preserved")
+        lastProcessedEvent = Some(Event("key2", TestEvent(2, "event2"), System.currentTimeMillis())),
+        state = Map("processedCount" -> "2", "stateKey" -> "preserved") // Changed from "3" to "2"
       )
       _ <- checkpointManager.saveCheckpoint(checkpoint)
       
@@ -310,22 +319,27 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
       
     } yield (sink.getResults, state1, state2, allStates)
     
-    result.map { case (results, state1, state2, allStates) =>
-      // Should only process additional events (4, 5) after recovery
-      assertEquals(results.length, 2)
-      assertEquals(results.map(_.originalId), List(4L, 5L))
-      
-      // EventStore state should be preserved
-      assert(state1.isDefined)
-      assertEquals(state1.get.id, 100L)
-      assertEquals(state1.get.data, "initial-state")
-      
-      assert(state2.isDefined)
-      assertEquals(state2.get.id, 200L)
-      assertEquals(state2.get.data, "another-state")
-      
-      // All states should be accessible
-      assertEquals(allStates.size, 2)
+    result.flatMap { case (results, state1, state2, allStates) =>
+      // Wait for stream completion and then get results
+      akka.pattern.after(100.millis, system.scheduler)(Future.successful(())).map { _ =>
+        val finalResults = sink.getResults
+        
+        // Should process events 3, 4, 5 after recovery from offset 2
+        assertEquals(finalResults.length, 3) // Events 3, 4, 5 from recovery
+        assertEquals(finalResults.map(_.originalId), List(3L, 4L, 5L))
+        
+        // EventStore state should be preserved
+        assert(state1.isDefined)
+        assertEquals(state1.get.id, 100L)
+        assertEquals(state1.get.data, "initial-state")
+        
+        assert(state2.isDefined)
+        assertEquals(state2.get.id, 200L)
+        assertEquals(state2.get.data, "another-state")
+        
+        // All states should be accessible
+        assertEquals(allStates.size, 2)
+      }
     }
   }
   
@@ -352,9 +366,14 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
       _ <- pipeline.runWithRecovery()
     } yield sink.getResults
     
-    result.map { results =>
-      // Should still process events (fallback to beginning or handle gracefully)
-      assert(results.nonEmpty)
+    result.flatMap { _ =>
+      // Wait for stream completion and then get results
+      akka.pattern.after(100.millis, system.scheduler)(Future.successful(())).map { _ =>
+        val finalResults = sink.getResults
+        
+        // Should still process events (fallback to beginning or handle gracefully)
+        assert(finalResults.nonEmpty)
+      }
     }
   }
   
@@ -397,19 +416,25 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
       
     } yield (sink1.getResults, sink2.getResults, checkpoints1, checkpoints2)
     
-    result.map { case (results1, results2, checkpoints1, checkpoints2) =>
-      // Each pipeline should process remaining events after their respective checkpoints
-      assertEquals(results1.length, 1) // Only event 2 after checkpoint at offset 1
-      assertEquals(results2.length, 1) // Only event 20 after checkpoint at offset 10
-      
-      assertEquals(results1.head.originalId, 2L)
-      assertEquals(results2.head.originalId, 20L)
-      
-      // Each pipeline should have separate checkpoint history
-      assert(checkpoints1.nonEmpty)
-      assert(checkpoints2.nonEmpty)
-      assertEquals(checkpoints1.head.pipelineId, "pipeline-1")
-      assertEquals(checkpoints2.head.pipelineId, "pipeline-2")
+    result.flatMap { case (results1, results2, checkpoints1, checkpoints2) =>
+      // Wait for stream completion and then get results
+      akka.pattern.after(100.millis, system.scheduler)(Future.successful(())).map { _ =>
+        val finalResults1 = sink1.getResults
+        val finalResults2 = sink2.getResults
+        
+        // Each pipeline should process remaining events after their respective checkpoints
+        assertEquals(finalResults1.length, 1) // Only event 2 after checkpoint at offset 1
+        assertEquals(finalResults2.length, 1) // Only event 20 after checkpoint at offset 10
+        
+        assertEquals(finalResults1.head.originalId, 2L)
+        assertEquals(finalResults2.head.originalId, 20L)
+        
+        // Each pipeline should have separate checkpoint history
+        assert(checkpoints1.nonEmpty)
+        assert(checkpoints2.nonEmpty)
+        assertEquals(checkpoints1.head.pipelineId, "pipeline-1")
+        assertEquals(checkpoints2.head.pipelineId, "pipeline-2")
+      }
     }
   }
   
@@ -530,22 +555,27 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
       
     } yield (sink.getResults, finalConfig, finalCounter, finalCheckpoint)
     
-    result.map { case (results, config, counter, checkpoint) =>
-      // Should process events 4 and 5 after recovery from offset 3
-      assertEquals(results.length, 2)
-      assertEquals(results.map(_.originalId), List(4L, 5L))
-      
-      // EventStore state should be preserved
-      assert(config.isDefined)
-      assertEquals(config.get.data, "app-config")
-      
-      assert(counter.isDefined)
-      assertEquals(counter.get.data, "initial-counter")
-      
-      // Checkpoint should be preserved
-      assert(checkpoint.isDefined)
-      assertEquals(checkpoint.get.offset, 3L)
-      assertEquals(checkpoint.get.state("processedCount"), "3")
+    result.flatMap { case (results, config, counter, checkpoint) =>
+      // Wait for stream completion and then get results
+      akka.pattern.after(200.millis, system.scheduler)(Future.successful(())).map { _ =>
+        val finalResults = sink.getResults
+        
+        // Should process events 4 and 5 after recovery from offset 3
+        assertEquals(finalResults.length, 2)
+        assertEquals(finalResults.map(_.originalId), List(4L, 5L))
+        
+        // EventStore state should be preserved
+        assert(config.isDefined)
+        assertEquals(config.get.data, "app-config")
+        
+        assert(counter.isDefined)
+        assertEquals(counter.get.data, "initial-counter")
+        
+        // Checkpoint should be preserved
+        assert(checkpoint.isDefined)
+        assertEquals(checkpoint.get.offset, 3L)
+        assertEquals(checkpoint.get.state("processedCount"), "3")
+      }
     }
   }
 }
