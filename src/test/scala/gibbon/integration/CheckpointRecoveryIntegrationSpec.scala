@@ -274,6 +274,7 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
     val checkpointManager = new TestCheckpointManager()
     val eventStore = new TestEventStore()
     val sink = new TestSink()
+    val sink2 = new TestSink()
     
     val initialEvents = List(
       TestEvent(1, "event1"),
@@ -305,11 +306,11 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
       )
       _ <- checkpointManager.saveCheckpoint(checkpoint)
       
-      // Clear sink for second run
-      _ = sink.clear()
+      // Create a new sink for second run to avoid any race conditions
+      // (sink2 already declared at test start)
       
       // Run second pipeline with additional events (should recover from checkpoint)
-      pipeline2 = createTestPipeline("state-test", initialEvents ++ additionalEvents, checkpointManager, sink)
+      pipeline2 = createTestPipeline("state-test", initialEvents ++ additionalEvents, checkpointManager, sink2)
       _ <- pipeline2.runWithRecovery()
       
       // Verify EventStore state is preserved
@@ -317,16 +318,21 @@ class CheckpointRecoveryIntegrationSpec extends FunSuite {
       state2 <- eventStore.get("state2")
       allStates <- eventStore.getAll
       
-    } yield (sink.getResults, state1, state2, allStates)
+    } yield (sink.getResults, sink2.getResults, state1, state2, allStates)
     
-    result.flatMap { case (results, state1, state2, allStates) =>
+    result.flatMap { case (firstResults, secondResults, state1, state2, allStates) =>
       // Wait for stream completion and then get results
       akka.pattern.after(100.millis, system.scheduler)(Future.successful(())).map { _ =>
-        val finalResults = sink.getResults
+        val finalFirstResults = sink.getResults
+        val finalSecondResults = sink2.getResults
         
-        // Should process events 3, 4, 5 after recovery from offset 2
-        assertEquals(finalResults.length, 3) // Events 3, 4, 5 from recovery
-        assertEquals(finalResults.map(_.originalId), List(3L, 4L, 5L))
+        // First run should process all events (no checkpoint exists yet)
+        assertEquals(finalFirstResults.length, 3) // Events 1, 2, 3
+        assertEquals(finalFirstResults.map(_.originalId), List(1L, 2L, 3L))
+        
+        // Second run should process events 3, 4, 5 after recovery from offset 2
+        assertEquals(finalSecondResults.length, 3) // Events 3, 4, 5 from recovery
+        assertEquals(finalSecondResults.map(_.originalId), List(3L, 4L, 5L))
         
         // EventStore state should be preserved
         assert(state1.isDefined)
