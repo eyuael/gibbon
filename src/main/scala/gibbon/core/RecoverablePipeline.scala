@@ -5,12 +5,12 @@ import akka.stream.scaladsl.{Source => AkkaSource}
 import scala.concurrent.{Future, ExecutionContext}
 import akka.actor.ActorSystem
 
-class RecoverablePipeline[I, O](
+class RecoverablePipeline[I, O, K, V](
   pipelineId: String,
   source: Source[I],
   flow: Flow[I, O],
   sink: Sink[O],
-  checkpointManager: CheckpointManager[_, _]
+  checkpointManager: CheckpointManager[K, V]
 )(implicit ec: ExecutionContext, system: ActorSystem) {
   
   def runWithRecovery(): Future[Any] = {
@@ -26,7 +26,7 @@ class RecoverablePipeline[I, O](
       }
     } yield ()
   }
-  private def runFromCheckpoint(checkpoint: Checkpoint[_, _]): Future[Any] = {
+  private def runFromCheckpoint(checkpoint: Checkpoint[K, V]): Future[Any] = {
     // Skip to the checkpoint offset
     val recoveredSource = source.toAkkaSource()
       .drop(checkpoint.offset) // Simplified - real implementation would be more sophisticated

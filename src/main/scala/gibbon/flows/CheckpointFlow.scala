@@ -16,27 +16,40 @@ class CheckpointingFlow[T, K, V](
   extractOffset: T => Long
 )(implicit ec: ExecutionContext) extends Flow[T, T] {
   
-  private val processedCount = new AtomicLong(0)
-  private var lastCheckpointTime = Instant.now()
-  
   override def toAkkaFlow(): AkkaFlow[T, T, Any] = {
     AkkaFlow[T]
-      .map { element =>
-        val currentCount = processedCount.incrementAndGet()
-        val now = Instant.now()
+      .statefulMapConcat { () =>
+        var processedCount = 0L
+        var lastCheckpointNanos: Option[Long] = None
         
-        if (shouldCheckpoint(now, currentCount)) {
-          createCheckpoint(element, currentCount, now)
-          lastCheckpointTime = now
+        element => {
+          processedCount += 1
+          val currentNanos = System.nanoTime()
+          
+          val shouldCreateCheckpoint = lastCheckpointNanos match {
+            case None => 
+              // First element - initialize timing and create first checkpoint
+              lastCheckpointNanos = Some(currentNanos)
+              true
+            case Some(lastNanos) =>
+              // Check if interval has passed for subsequent checkpoints
+              val nanosSinceLastCheckpoint = currentNanos - lastNanos
+              val intervalNanos = checkpointInterval.toNanos
+              if (nanosSinceLastCheckpoint >= intervalNanos) {
+                lastCheckpointNanos = Some(currentNanos)
+                true
+              } else {
+                false
+              }
+          }
+          
+          if (shouldCreateCheckpoint) {
+            createCheckpoint(element, processedCount, Instant.now())
+          }
+          
+          List(element)
         }
-        
-        element
       }
-  }
-  
-  private def shouldCheckpoint(now: Instant, count: Long): Boolean = {
-    val timeSinceLastCheckpoint = java.time.Duration.between(lastCheckpointTime, now)
-    timeSinceLastCheckpoint.compareTo(java.time.Duration.ofMillis(checkpointInterval.toMillis)) >= 0
   }
   
   private def createCheckpoint(element: T, count: Long, timestamp: Instant): Unit = {
@@ -49,10 +62,13 @@ class CheckpointingFlow[T, K, V](
       state = Map("processedCount" -> count.toString)
     )
     
-    checkpointManager.saveCheckpoint(checkpoint)
-      .recover { case ex => 
+    // Fire and forget - don't block the stream but log errors
+    checkpointManager.saveCheckpoint(checkpoint).onComplete {
+      case scala.util.Success(_) => 
+        // Checkpoint saved successfully
+      case scala.util.Failure(ex) => 
         // Log error but don't fail the stream
         println(s"Failed to save checkpoint: ${ex.getMessage}")
-      }
+    }
   }
 }
