@@ -47,6 +47,15 @@ Gibbon is a lightweight Scala library for building production-ready, backpressur
 - [X] `ConsoleSink` - print events to console
 - [X] `DatabaseSink` - persist events to database
 
+## Phase 2.5: Delivery system that allows users to choose between akka and pekko
+
+- [ ] Create runtime abstraction and Akka implementation
+- [ ] Create runtime abstraction and Pekko implementation
+- [ ] Update all core components to use runtime abstraction
+- [ ] Add auto-detection and migration utilities
+- [ ] Update docs and examples
+
+
 ## Phase 3: Advanced Features (Weeks 5-6)
 
 ### 3.1 State Management

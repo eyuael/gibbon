@@ -1,5 +1,4 @@
 package gibbon.core
-
 import akka.stream.scaladsl.{Sink => AkkaSink}
 import scala.concurrent.Future
 

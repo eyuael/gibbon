@@ -1,5 +1,6 @@
 package gibbon.core
+import akka.stream.scaladsl.{Flow => AkkaFlow}
 
 trait Flow[I,O] {
-  def toAkkaFlow(): akka.stream.scaladsl.Flow[I, O, Any]
+  def toAkkaFlow(): AkkaFlow[I, O, Any]
 }

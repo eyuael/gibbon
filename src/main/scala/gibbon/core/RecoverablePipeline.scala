@@ -4,6 +4,7 @@ import gibbon.checkpoint.{CheckpointManager, Checkpoint}
 import akka.stream.scaladsl.{Source => AkkaSource}
 import scala.concurrent.{Future, ExecutionContext}
 import akka.actor.ActorSystem
+import gibbon.runtime.StreamingRuntime
 
 class RecoverablePipeline[I, O, K, V](
   pipelineId: String,

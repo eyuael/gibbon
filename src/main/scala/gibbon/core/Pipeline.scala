@@ -2,6 +2,7 @@ package gibbon.core
 import gibbon.core.Source
 import gibbon.core.Flow
 import gibbon.core.Sink
+import gibbon.runtime.StreamingRuntime
 
 final case class Pipeline[I,O](
   source: Source[I],

@@ -26,4 +26,10 @@ object Dependencies {
   // Kafka (optional dependencies)
   lazy val akkaStreamKafka = "com.typesafe.akka" %% "akka-stream-kafka" % "4.0.2"
   lazy val kafkaClients = "org.apache.kafka" % "kafka-clients" % "3.5.1"
+
+  // Pekko
+  lazy val pekkoVersion = "1.0.1"
+  lazy val pekkoStreams = "org.apache.pekko" %% "pekko-stream" % pekkoVersion
+  lazy val pekkoHttp = "org.apache.pekko" %% "pekko-http" % "1.0.0"
+  lazy val pekkoHttpSpray = "org.apache.pekko" %% "pekko-http-spray-json" % "1.0.0"
 }
