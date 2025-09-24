@@ -67,7 +67,7 @@ lazy val pekko = (project in file("gibbon-pekko"))
 
 lazy val root = (project in file("."))
   .aggregate(core, akka, pekko)
-  .dependsOn(core, akka % "compile->compile;test->test")
+  .dependsOn(core, akka % "compile->compile;test->test", pekko % "compile->compile;test->test")
   .settings(
     name := "gibbon"
   )

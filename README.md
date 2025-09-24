@@ -1,6 +1,16 @@
 # Gibbon
 
-Gibbon is a lightweight Scala library for building production-ready, backpressure-aware, stateful, event-time-correct streaming pipelines that can run locally for development or across a cluster. Built on top of Akka Streams, Gibbon provides higher-level abstractions that make stream processing more accessible and maintainable.
+Gibbon is a lightweight Scala library for building production-ready, backpressure-aware, stateful, event-time-correct streaming pipelines that can run locally for development or across a cluster. Built on top of **both Akka Streams and Pekko**, Gibbon provides higher-level abstractions that make stream processing more accessible and maintainable.
+
+## 🎯 **Runtime Flexibility**
+
+Gibbon features a **runtime abstraction system** that allows you to choose between **Akka Streams** and **Pekko** as your underlying streaming engine. This gives you the flexibility to:
+
+- **Migrate from Akka to Pekko** without changing your application code
+- **Choose the runtime** that best fits your deployment requirements
+- **Future-proof** your streaming applications against framework changes
+
+Simply change the implicit runtime to switch between streaming engines - **your pipeline code remains identical**!
 
 ##  Features
 
@@ -31,25 +41,57 @@ Gibbon is a lightweight Scala library for building production-ready, backpressur
 - **HttpSink**: Send events via HTTP requests
 
 ### Advanced Features
+- **Runtime Abstraction**: Choose between Akka Streams and Pekko without code changes
 - **Fault Tolerance**: Automatic checkpointing and recovery from failures
 - **State Management**: Built-in event store with Redis backend
 - **Monitoring**: Metrics collection and monitoring capabilities
 - **Error Handling**: Comprehensive error handling framework
-- **Backpressure**: Built on Akka Streams for automatic backpressure handling
+- **Backpressure**: Built on Akka Streams/Pekko for automatic backpressure handling
 
 ##  Installation
 
-Add Gibbon to your `build.sbt`:
+Gibbon is organized into multiple modules to support both Akka Streams and Pekko. Choose the modules that match your streaming runtime:
 
-```scala
-libraryDependencies += "com.example" %% "gibbon" % "0.1.0-SNAPSHOT"
-```
+### For Akka Streams
 
-Required dependencies:
+Add these dependencies to your `build.sbt`:
+
 ```scala
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-stream" % "2.8.5",
-  "com.typesafe.akka" %% "akka-http" % "10.5.3",
+  "com.example" %% "gibbon-core" % "0.1.0-SNAPSHOT",
+  "com.example" %% "gibbon-akka" % "0.1.0-SNAPSHOT"
+)
+```
+
+### For Pekko
+
+Add these dependencies to your `build.sbt`:
+
+```scala
+libraryDependencies ++= Seq(
+  "com.example" %% "gibbon-core" % "0.1.0-SNAPSHOT",
+  "com.example" %% "gibbon-pekko" % "0.1.0-SNAPSHOT"
+)
+```
+
+### For Both (Runtime Selection)
+
+If you want the flexibility to choose at runtime:
+
+```scala
+libraryDependencies ++= Seq(
+  "com.example" %% "gibbon-core" % "0.1.0-SNAPSHOT",
+  "com.example" %% "gibbon-akka" % "0.1.0-SNAPSHOT",
+  "com.example" %% "gibbon-pekko" % "0.1.0-SNAPSHOT"
+)
+```
+
+### Additional Dependencies
+
+You may also need these common dependencies:
+
+```scala
+libraryDependencies ++= Seq(
   "io.circe" %% "circe-core" % "0.14.6",
   "io.circe" %% "circe-generic" % "0.14.6",
   "io.circe" %% "circe-parser" % "0.14.6"
@@ -58,16 +100,17 @@ libraryDependencies ++= Seq(
 
 ## 🏃 Quick Start
 
-### Basic Pipeline
+### Basic Pipeline with Akka Streams
 
 ```scala
-import akka.actor.ActorSystem
 import gibbon.core.{Event, Pipeline}
 import gibbon.sources.generator.GeneratorSource
 import gibbon.flows.{FilterFlow, TransformFlow}
 import gibbon.sinks.ConsoleSink
+import gibbon.runtime.AkkaStreamingRuntime
 
-implicit val system: ActorSystem = ActorSystem("MyGibbonApp")
+// Choose Akka Streams as your runtime
+implicit val runtime = new AkkaStreamingRuntime()
 
 // Create a source that generates numeric events
 val source = GeneratorSource.numericEvents(
@@ -84,10 +127,62 @@ val transformFlow = TransformFlow[Event[Int, Int], Event[Int, String]](event =>
 )
 
 // Create a sink to output results
-val sink = new ConsoleSink[Int, String]()
+val sink = ConsoleSink[Int, String]()
 
 // Build and run the pipeline
 val pipeline = Pipeline(source, filterFlow, sink)
+val runnableGraph = pipeline.toRunnableGraph()
+runnableGraph.run()
+```
+
+### Basic Pipeline with Pekko
+
+```scala
+import gibbon.core.{Event, Pipeline}
+import gibbon.sources.generator.GeneratorSource
+import gibbon.flows.{FilterFlow, TransformFlow}
+import gibbon.sinks.ConsoleSink
+import gibbon.runtime.PekkoStreamingRuntime
+
+// Choose Pekko as your runtime - same code, different runtime!
+implicit val runtime = new PekkoStreamingRuntime()
+
+// Everything else is identical to the Akka example above
+val source = GeneratorSource.numericEvents(
+  startKey = 1,
+  startValue = 0,
+  eventsPerSecond = 5,
+  maxEvents = Some(20)
+)
+
+val filterFlow = FilterFlow[Event[Int, Int]](event => event.value > 10)
+val transformFlow = TransformFlow[Event[Int, Int], Event[Int, String]](event => 
+  event.copy(value = s"Processed: ${event.value}")
+)
+
+val sink = ConsoleSink[Int, String]()
+
+val pipeline = Pipeline(source, filterFlow, sink)
+val runnableGraph = pipeline.toRunnableGraph()
+runnableGraph.run()
+```
+
+### Runtime Selection at Application Startup
+
+```scala
+import gibbon.runtime.{AkkaStreamingRuntime, PekkoStreamingRuntime}
+
+// Choose runtime based on configuration or environment
+val useAkka = sys.env.get("STREAMING_RUNTIME").contains("akka")
+
+implicit val runtime = if (useAkka) {
+  new AkkaStreamingRuntime()
+} else {
+  new PekkoStreamingRuntime()
+}
+
+// Your pipeline code remains the same regardless of runtime choice
+val pipeline = Pipeline(mySource, myFlow, mySink)
 pipeline.toRunnableGraph().run()
 ```
 
@@ -96,9 +191,12 @@ pipeline.toRunnableGraph().run()
 ```scala
 import gibbon.sources.file.FileSource
 import gibbon.sinks.FileSink
+import gibbon.runtime.AkkaStreamingRuntime // or PekkoStreamingRuntime
+
+implicit val runtime = new AkkaStreamingRuntime()
 
 // Read from CSV file
-val fileSource = new FileSource[String, String](
+val fileSource = FileSource[String, String](
   filePath = "input.csv",
   parser = line => {
     val parts = line.split(",")
@@ -112,7 +210,7 @@ val transformFlow = TransformFlow[Event[String, String], Event[String, String]](
 )
 
 // Write to output file
-val fileSink = new FileSink[String, String](
+val fileSink = FileSink[String, String](
   filePath = "output.csv",
   formatter = Some(event => s"${event.key},${event.value}\n")
 )
@@ -126,6 +224,9 @@ pipeline.toRunnableGraph().run()
 ```scala
 import gibbon.core.RecoverablePipeline
 import gibbon.checkpoint.CheckpointManager
+import gibbon.runtime.AkkaStreamingRuntime // or PekkoStreamingRuntime
+
+implicit val runtime = new AkkaStreamingRuntime()
 
 // Set up checkpoint manager (implement your own or use built-in)
 val checkpointManager = new MyCheckpointManager()
@@ -156,6 +257,7 @@ Check out the examples in the codebase:
 **Version**: 0.1.0-SNAPSHOT (Active Development)
 
 ### ✅ Implemented Features
+- **Runtime Abstraction**: Choose between Akka Streams and Pekko without code changes
 - Core abstractions (Event, Source, Flow, Sink, Pipeline)
 - Built-in sources (Generator, File, Kafka, HTTP)
 - Built-in flows (Filter, Transform, Enrich, Window, Checkpoint)
@@ -189,4 +291,5 @@ MIT License
 ## 🔗 Links
 
 - [Roadmap](ROADMAP.md) - Development roadmap and planned features
-- [Akka Streams Documentation](https://doc.akka.io/docs/akka/current/stream/index.html) - Underlying streaming framework
+- [Akka Streams Documentation](https://doc.akka.io/docs/akka/current/stream/index.html) - Akka Streams framework
+- [Pekko Documentation](https://pekko.apache.org/docs/pekko/current/) - Pekko streaming framework

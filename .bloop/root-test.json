@@ -12,30 +12,36 @@
             "/Users/eyuaelberhe/gibbon/target/scala-2.13/src_managed/test"
         ],
         "dependencies": [
-            "root"
+            "core",
+            "akka-test",
+            "pekko-test",
+            "root",
+            "core-test"
         ],
         "classpath": [
             "/Users/eyuaelberhe/gibbon/.bloop/root/scala-2.13/classes",
+            "/Users/eyuaelberhe/gibbon/.bloop/core/scala-2.13/classes",
+            "/Users/eyuaelberhe/gibbon/.bloop/akka/scala-2.13/test-classes",
+            "/Users/eyuaelberhe/gibbon/.bloop/akka/scala-2.13/classes",
+            "/Users/eyuaelberhe/gibbon/.bloop/pekko/scala-2.13/test-classes",
+            "/Users/eyuaelberhe/gibbon/.bloop/pekko/scala-2.13/classes",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.16/scala-library-2.13.16.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.8.5/akka-stream_2.13-2.8.5.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.5.3/akka-http_2.13-10.5.3.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.13/10.5.3/akka-http-spray-json_2.13-10.5.3.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.14.7/circe-core_2.13-0.14.7.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_2.13/0.14.7/circe-generic_2.13-0.14.7.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.14.7/circe-parser_2.13-0.14.7.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.5.6/logback-classic-1.5.6.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.13/3.9.5/scala-logging_2.13-3.9.5.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.8.5/akka-stream_2.13-2.8.5.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.5.3/akka-http_2.13-10.5.3.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.13/10.5.3/akka-http-spray-json_2.13-10.5.3.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.13/4.0.2/akka-stream-kafka_2.13-4.0.2.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka-clients/3.5.1/kafka-clients-3.5.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/Ma27/rediscala_2.13/1.9.1/rediscala_2.13-1.9.1.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-stream_2.13/1.0.1/pekko-stream_2.13-1.0.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/munit_2.13/0.7.29/munit_2.13-0.7.29.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.8.5/akka-actor_2.13-2.8.5.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.8.5/akka-protobuf-v3_2.13-2.8.5.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.6.1/ssl-config-core_2.13-0.6.1.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.5.3/akka-http-core_2.13-10.5.3.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.13/1.3.6/spray-json_2.13-1.3.6.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-stream_2.13/1.0.1/pekko-stream_2.13-1.0.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-http_2.13/1.0.0/pekko-http_2.13-1.0.0.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-http-spray-json_2.13/1.0.0/pekko-http-spray-json_2.13-1.0.0.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-connectors-kafka_2.13/1.0.0/pekko-connectors-kafka_2.13-1.0.0.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.14.7/circe-numbers_2.13-0.14.7.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.10.0/cats-core_2.13-2.10.0.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.10/shapeless_2.13-2.3.10.jar",
@@ -43,21 +49,30 @@
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.5.6/logback-core-1.5.6.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.16/scala-reflect-2.13.16.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.8.5/akka-actor_2.13-2.8.5.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.8.5/akka-protobuf-v3_2.13-2.8.5.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.6.1/ssl-config-core_2.13-0.6.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.5.3/akka-http-core_2.13-10.5.3.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.13/1.3.6/spray-json_2.13-1.3.6.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.5.5-1/zstd-jni-1.5.5-1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.10.1/snappy-java-1.1.10.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-stm/scala-stm_2.13/0.9.1/scala-stm_2.13-0.9.1.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-actor_2.13/1.0.1/pekko-actor_2.13-1.0.1.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-protobuf-v3_2.13/1.0.1/pekko-protobuf-v3_2.13-1.0.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/junit-interface/0.7.29/junit-interface-0.7.29.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-actor_2.13/1.0.1/pekko-actor_2.13-1.0.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-protobuf-v3_2.13/1.0.1/pekko-protobuf-v3_2.13-1.0.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-http-core_2.13/1.0.0/pekko-http-core_2.13-1.0.0.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.10.0/cats-kernel_2.13-2.10.0.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.5.1/jawn-parser_2.13-1.5.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.5.3/akka-parsing_2.13-10.5.3.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.10.0/cats-kernel_2.13-2.10.0.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.5.1/jawn-parser_2.13-1.5.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-parsing_2.13/1.0.0/pekko-parsing_2.13-1.0.0.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/parboiled/parboiled_2.13/2.5.0/parboiled_2.13-2.5.0.jar"
         ],
         "out": "/Users/eyuaelberhe/gibbon/.bloop/root",
         "classesDir": "/Users/eyuaelberhe/gibbon/.bloop/root/scala-2.13/test-classes",
@@ -187,57 +202,6 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-stream_2.13",
-                    "version": "2.8.5",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "akka-stream_2.13",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.8.5/akka-stream_2.13-2.8.5.jar"
-                        },
-                        {
-                            "name": "akka-stream_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.8.5/akka-stream_2.13-2.8.5-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-http_2.13",
-                    "version": "10.5.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "akka-http_2.13",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.5.3/akka-http_2.13-10.5.3.jar"
-                        },
-                        {
-                            "name": "akka-http_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.5.3/akka-http_2.13-10.5.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-http-spray-json_2.13",
-                    "version": "10.5.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "akka-http-spray-json_2.13",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.13/10.5.3/akka-http-spray-json_2.13-10.5.3.jar"
-                        },
-                        {
-                            "name": "akka-http-spray-json_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.13/10.5.3/akka-http-spray-json_2.13-10.5.3-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "io.circe",
                     "name": "circe-core_2.13",
                     "version": "0.14.7",
@@ -324,6 +288,57 @@
                 },
                 {
                     "organization": "com.typesafe.akka",
+                    "name": "akka-stream_2.13",
+                    "version": "2.8.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-stream_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.8.5/akka-stream_2.13-2.8.5.jar"
+                        },
+                        {
+                            "name": "akka-stream_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.8.5/akka-stream_2.13-2.8.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http_2.13",
+                    "version": "10.5.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.5.3/akka-http_2.13-10.5.3.jar"
+                        },
+                        {
+                            "name": "akka-http_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.5.3/akka-http_2.13-10.5.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http-spray-json_2.13",
+                    "version": "10.5.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-spray-json_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.13/10.5.3/akka-http-spray-json_2.13-10.5.3.jar"
+                        },
+                        {
+                            "name": "akka-http-spray-json_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.13/10.5.3/akka-http-spray-json_2.13-10.5.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
                     "name": "akka-stream-kafka_2.13",
                     "version": "4.0.2",
                     "configurations": "default",
@@ -391,104 +406,53 @@
                     ]
                 },
                 {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-actor_2.13",
-                    "version": "2.8.5",
+                    "organization": "org.apache.pekko",
+                    "name": "pekko-http_2.13",
+                    "version": "1.0.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "akka-actor_2.13",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.8.5/akka-actor_2.13-2.8.5.jar"
+                            "name": "pekko-http_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-http_2.13/1.0.0/pekko-http_2.13-1.0.0.jar"
                         },
                         {
-                            "name": "akka-actor_2.13",
+                            "name": "pekko-http_2.13",
                             "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.8.5/akka-actor_2.13-2.8.5-sources.jar"
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-http_2.13/1.0.0/pekko-http_2.13-1.0.0-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-protobuf-v3_2.13",
-                    "version": "2.8.5",
+                    "organization": "org.apache.pekko",
+                    "name": "pekko-http-spray-json_2.13",
+                    "version": "1.0.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "akka-protobuf-v3_2.13",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.8.5/akka-protobuf-v3_2.13-2.8.5.jar"
+                            "name": "pekko-http-spray-json_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-http-spray-json_2.13/1.0.0/pekko-http-spray-json_2.13-1.0.0.jar"
                         },
                         {
-                            "name": "akka-protobuf-v3_2.13",
+                            "name": "pekko-http-spray-json_2.13",
                             "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.8.5/akka-protobuf-v3_2.13-2.8.5-sources.jar"
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-http-spray-json_2.13/1.0.0/pekko-http-spray-json_2.13-1.0.0-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "org.reactivestreams",
-                    "name": "reactive-streams",
-                    "version": "1.0.4",
+                    "organization": "org.apache.pekko",
+                    "name": "pekko-connectors-kafka_2.13",
+                    "version": "1.0.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "reactive-streams",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+                            "name": "pekko-connectors-kafka_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-connectors-kafka_2.13/1.0.0/pekko-connectors-kafka_2.13-1.0.0.jar"
                         },
                         {
-                            "name": "reactive-streams",
+                            "name": "pekko-connectors-kafka_2.13",
                             "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe",
-                    "name": "ssl-config-core_2.13",
-                    "version": "0.6.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "ssl-config-core_2.13",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.6.1/ssl-config-core_2.13-0.6.1.jar"
-                        },
-                        {
-                            "name": "ssl-config-core_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.6.1/ssl-config-core_2.13-0.6.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe.akka",
-                    "name": "akka-http-core_2.13",
-                    "version": "10.5.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "akka-http-core_2.13",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.5.3/akka-http-core_2.13-10.5.3.jar"
-                        },
-                        {
-                            "name": "akka-http-core_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.5.3/akka-http-core_2.13-10.5.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "io.spray",
-                    "name": "spray-json_2.13",
-                    "version": "1.3.6",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "spray-json_2.13",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.13/1.3.6/spray-json_2.13-1.3.6.jar"
-                        },
-                        {
-                            "name": "spray-json_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.13/1.3.6/spray-json_2.13-1.3.6-sources.jar"
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-connectors-kafka_2.13/1.0.0/pekko-connectors-kafka_2.13-1.0.0-sources.jar"
                         }
                     ]
                 },
@@ -612,6 +576,108 @@
                     ]
                 },
                 {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.13",
+                    "version": "2.8.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.8.5/akka-actor_2.13-2.8.5.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.8.5/akka-actor_2.13-2.8.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-protobuf-v3_2.13",
+                    "version": "2.8.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.8.5/akka-protobuf-v3_2.13-2.8.5.jar"
+                        },
+                        {
+                            "name": "akka-protobuf-v3_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.8.5/akka-protobuf-v3_2.13-2.8.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "ssl-config-core_2.13",
+                    "version": "0.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.6.1/ssl-config-core_2.13-0.6.1.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.6.1/ssl-config-core_2.13-0.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-http-core_2.13",
+                    "version": "10.5.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-http-core_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.5.3/akka-http-core_2.13-10.5.3.jar"
+                        },
+                        {
+                            "name": "akka-http-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.5.3/akka-http-core_2.13-10.5.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.spray",
+                    "name": "spray-json_2.13",
+                    "version": "1.3.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spray-json_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.13/1.3.6/spray-json_2.13-1.3.6.jar"
+                        },
+                        {
+                            "name": "spray-json_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.13/1.3.6/spray-json_2.13-1.3.6-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.github.luben",
                     "name": "zstd-jni",
                     "version": "1.5.5-1",
@@ -714,6 +780,57 @@
                     ]
                 },
                 {
+                    "organization": "org.apache.pekko",
+                    "name": "pekko-http-core_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pekko-http-core_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-http-core_2.13/1.0.0/pekko-http-core_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "pekko-http-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-http-core_2.13/1.0.0/pekko-http-core_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.13",
+                    "version": "2.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.10.0/cats-kernel_2.13-2.10.0.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.10.0/cats-kernel_2.13-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "jawn-parser_2.13",
+                    "version": "1.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jawn-parser_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.5.1/jawn-parser_2.13-1.5.1.jar"
+                        },
+                        {
+                            "name": "jawn-parser_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.5.1/jawn-parser_2.13-1.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe",
                     "name": "config",
                     "version": "1.4.2",
@@ -765,36 +882,36 @@
                     ]
                 },
                 {
-                    "organization": "org.typelevel",
-                    "name": "cats-kernel_2.13",
-                    "version": "2.10.0",
+                    "organization": "org.apache.pekko",
+                    "name": "pekko-parsing_2.13",
+                    "version": "1.0.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "cats-kernel_2.13",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.10.0/cats-kernel_2.13-2.10.0.jar"
+                            "name": "pekko-parsing_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-parsing_2.13/1.0.0/pekko-parsing_2.13-1.0.0.jar"
                         },
                         {
-                            "name": "cats-kernel_2.13",
+                            "name": "pekko-parsing_2.13",
                             "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.10.0/cats-kernel_2.13-2.10.0-sources.jar"
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/pekko/pekko-parsing_2.13/1.0.0/pekko-parsing_2.13-1.0.0-sources.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "org.typelevel",
-                    "name": "jawn-parser_2.13",
-                    "version": "1.5.1",
+                    "organization": "org.parboiled",
+                    "name": "parboiled_2.13",
+                    "version": "2.5.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "jawn-parser_2.13",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.5.1/jawn-parser_2.13-1.5.1.jar"
+                            "name": "parboiled_2.13",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/parboiled/parboiled_2.13/2.5.0/parboiled_2.13-2.5.0.jar"
                         },
                         {
-                            "name": "jawn-parser_2.13",
+                            "name": "parboiled_2.13",
                             "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.5.1/jawn-parser_2.13-1.5.1-sources.jar"
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/parboiled/parboiled_2.13/2.5.0/parboiled_2.13-2.5.0-sources.jar"
                         }
                     ]
                 },

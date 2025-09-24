@@ -1,0 +1,87 @@
+2025.09.24 16:04:24 INFO  Started: Metals version 1.6.2 in folders '/Users/eyuaelberhe/gibbon' for client Trae 1.100.3.
+2025.09.24 16:04:25 INFO  no build target found for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/error/ErrorHandler.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.24 16:04:25 INFO  Attempting to connect to the build server...
+2025.09.24 16:04:25 INFO  Found a Bloop server running
+2025.09.24 16:04:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/eyuaelberhe/gibbon/.metals/bsp.trace.json or /Users/eyuaelberhe/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.24 16:04:25 INFO  time: Connected to build server in 0.26s
+2025.09.24 16:04:25 INFO  Connected to Build server: Bloop v2.0.13
+2025.09.24 16:04:30 INFO  time: indexed workspace in 4.36s
+2025.09.24 16:04:30 INFO  compiling core (31 scala sources)
+2025.09.24 16:04:32 WARN  2 feature warnings; re-run with -feature for details
+2025.09.24 16:04:32 INFO  compiling pekko (1 scala source)
+2025.09.24 16:04:32 INFO  compiling core-test (11 scala sources)
+2025.09.24 16:04:32 INFO  compiling akka (1 scala source)
+2025.09.24 16:04:32 INFO  time: compiled core in 2.02s
+2025.09.24 16:04:32 INFO  time: compiled pekko in 0.23s
+2025.09.24 16:04:32 INFO  time: compiled akka in 0.23s
+2025.09.24 16:04:32 INFO  time: compiled core-test in 0.55s
+2025.09.24 16:06:33 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:06:33 INFO  time: compiled core-test in 0.71s
+2025.09.24 16:06:40 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:06:40 INFO  time: compiled core-test in 0.44s
+2025.09.24 16:06:48 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:06:48 INFO  time: compiled core-test in 0.41s
+2025.09.24 16:07:29 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:07:29 INFO  time: compiled core-test in 0.63s
+2025.09.24 16:07:42 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:07:42 INFO  time: compiled core-test in 0.47s
+2025.09.24 16:07:50 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:07:50 INFO  time: compiled core-test in 0.43s
+2025.09.24 16:08:01 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:08:01 INFO  time: compiled core-test in 0.38s
+2025.09.24 16:08:09 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:08:09 INFO  time: compiled core-test in 0.42s
+2025.09.24 16:08:41 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:08:41 INFO  time: compiled core-test in 0.42s
+2025.09.24 16:08:50 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:08:50 INFO  time: compiled core-test in 0.46s
+2025.09.24 16:08:59 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:08:59 INFO  time: compiled core-test in 0.34s
+2025.09.24 16:09:13 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:09:13 INFO  time: compiled core-test in 0.34s
+2025.09.24 16:09:37 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:09:37 INFO  time: compiled core-test in 0.34s
+2025.09.24 16:09:46 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:09:46 INFO  time: compiled core-test in 0.35s
+2025.09.24 16:09:58 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:09:58 INFO  time: compiled core-test in 0.34s
+2025.09.24 16:10:05 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:10:05 INFO  time: compiled core-test in 0.34s
+2025.09.24 16:10:14 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:10:14 INFO  time: compiled core-test in 0.34s
+2025.09.24 16:11:12 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:11:12 INFO  time: compiled core-test in 0.46s
+2025.09.24 16:11:20 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:11:20 INFO  time: compiled core-test in 0.39s
+2025.09.24 16:11:27 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:11:27 INFO  time: compiled core-test in 0.46s
+2025.09.24 16:12:40 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:12:40 INFO  time: compiled core-test in 0.4s
+2025.09.24 16:12:48 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:12:48 INFO  time: compiled core-test in 0.33s
+2025.09.24 16:13:17 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:13:17 INFO  time: compiled core-test in 0.38s
+2025.09.24 16:13:38 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:13:38 INFO  time: compiled core-test in 0.32s
+2025.09.24 16:14:36 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:14:36 INFO  time: compiled core-test in 0.4s
+2025.09.24 16:14:55 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:14:55 INFO  time: compiled core-test in 0.32s
+2025.09.24 16:15:07 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:15:07 INFO  time: compiled core-test in 0.32s
+2025.09.24 16:15:24 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:15:24 INFO  time: compiled core-test in 0.38s
+2025.09.24 16:15:35 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:15:35 INFO  time: compiled core-test in 0.34s
+2025.09.24 16:15:51 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:15:51 INFO  time: compiled core-test in 0.34s
+2025.09.24 16:16:03 INFO  compiling core-test (12 scala sources)
+2025.09.24 16:16:03 INFO  time: compiled core-test in 0.32s
+2025.09.24 16:16:54 INFO  compiling core-test (6 scala sources)
+2025.09.24 16:16:54 WARN  Invalid text document uri received from build server: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/state/RedisEventStoreSpec.scala
+2025.09.24 16:16:54 WARN  Invalid text document uri received from build server: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/integration/CheckpointRecoveryIntegrationSpec.scala
+2025.09.24 16:16:54 WARN  Invalid text document uri received from build server: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/flows/CheckpointingFlowSpec.scala
+2025.09.24 16:16:54 WARN  Invalid text document uri received from build server: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/performance/CheckpointPerformanceSpec.scala
+2025.09.24 16:16:54 INFO  time: compiled core-test in 0.18s
+Sept 24, 2025 4:17:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
