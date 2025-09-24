@@ -85,3 +85,592 @@
 2025.09.24 16:16:54 INFO  time: compiled core-test in 0.18s
 Sept 24, 2025 4:17:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2025.09.24 18:04:17 INFO  compiling core (2 scala sources)
+2025.09.24 18:04:18 INFO  time: compiled core in 1.79s
+2025.09.24 18:04:18 INFO  compiling core (1 scala source)
+2025.09.24 18:04:18 INFO  time: compiled core in 0.2s
+2025.09.24 18:04:53 INFO  compiling core (1 scala source)
+2025.09.24 18:04:53 INFO  time: compiled core in 0.33s
+2025.09.24 18:05:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:10 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala]
+2025.09.24 18:05:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:10 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+Sept 24, 2025 6:05:14 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:05:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala]
+2025.09.24 18:05:14 INFO  java.lang.AssertionError: assertion failed: bad position: [53:51] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-05-14-831.md")
+Sept 24, 2025 6:05:14 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:05:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala]
+2025.09.24 18:05:14 INFO  java.lang.AssertionError: assertion failed: bad position: [53:51] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-05-14-873.md")
+2025.09.24 18:05:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+Sept 24, 2025 6:05:15 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:05:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala]
+2025.09.24 18:05:14 INFO  java.lang.AssertionError: assertion failed: bad position: [53:51] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-05-15-114.md")
+2025.09.24 18:05:15 WARN  Could not find semantic tokens for: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala
+Sept 24, 2025 6:05:15 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:05:15 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala]
+2025.09.24 18:05:15 INFO  java.lang.AssertionError: assertion failed: bad position: [53:51] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-05-15-980.md")
+Sept 24, 2025 6:05:16 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:05:16 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:15 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala]
+2025.09.24 18:05:15 INFO  java.lang.AssertionError: assertion failed: bad position: [53:51] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-05-16-024.md")
+2025.09.24 18:05:16 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:16 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:16 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+Sept 24, 2025 6:05:23 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:05:23 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala]
+2025.09.24 18:05:23 INFO  java.lang.AssertionError: assertion failed: bad position: [53:51] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-05-23-300.md")
+2025.09.24 18:05:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+Sept 24, 2025 6:05:23 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:05:23 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala]
+2025.09.24 18:05:23 INFO  java.lang.AssertionError: assertion failed: bad position: [53:51] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-05-23-418.md")
+2025.09.24 18:05:23 WARN  Could not find semantic tokens for: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala
+2025.09.24 18:05:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-10-363.md")
+2025.09.24 18:05:27 INFO  compiling core (1 scala source)
+2025.09.24 18:05:27 INFO  time: compiled core in 99ms
+2025.09.24 18:05:28 INFO  compiling core (2 scala sources)
+2025.09.24 18:05:28 INFO  time: compiled core in 95ms
+2025.09.24 18:05:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:32 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/RedisEventStore.scala]
+2025.09.24 18:05:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:36 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:36 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:37 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:39 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:39 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-32-421.md")
+2025.09.24 18:05:49 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:49 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-49-903.md")
+2025.09.24 18:05:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-49-903.md")
+Sept 24, 2025 6:05:51 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event store/RedisEventStore.scala
+java.nio.file.NoSuchFileException: /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event store/RedisEventStore.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2970)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:466)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:289)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:300)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:216)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:216)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:177)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:216)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:303)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:296)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:275)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:156)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:28)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:479)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:148)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:132)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:209)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Sept 24, 2025 6:05:51 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event store/RedisEventStore.scala
+java.nio.file.NoSuchFileException: /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event store/RedisEventStore.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2970)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:466)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:289)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:300)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:311)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:216)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:216)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:177)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:216)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:303)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:296)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:275)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:156)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:28)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:479)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:148)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:132)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:209)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Sept 24, 2025 6:05:51 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event store/RedisEventStore.scala
+java.nio.file.NoSuchFileException: /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event store/RedisEventStore.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2970)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:466)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:289)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:300)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:216)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:216)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:177)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:216)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:238)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:238)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:303)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:296)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:275)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:156)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:28)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:479)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:148)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:132)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:209)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Sept 24, 2025 6:05:51 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event store/RedisEventStore.scala
+java.nio.file.NoSuchFileException: /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event store/RedisEventStore.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2970)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:42)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:466)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:96)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:289)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:300)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:311)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:216)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:216)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:177)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:216)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$8(SymbolIndexBucket.scala:238)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:238)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:189)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:142)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:142)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:138)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:49)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:51)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:303)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:296)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:275)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:156)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:28)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:479)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:148)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:132)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:209)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+2025.09.24 18:05:52 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:52 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:52 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-52-158.md")
+2025.09.24 18:05:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-52-158.md")
+2025.09.24 18:05:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-52-158.md")
+2025.09.24 18:05:52 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-52-526.md")
+2025.09.24 18:05:52 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-52-529.md")
+2025.09.24 18:05:52 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:53 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-53-151.md")
+2025.09.24 18:05:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-53-151.md")
+2025.09.24 18:05:54 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:54 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-54-679.md")
+2025.09.24 18:05:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-54-679.md")
+2025.09.24 18:05:56 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:56 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:56 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-56-226.md")
+2025.09.24 18:05:56 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-56-226.md")
+2025.09.24 18:05:57 INFO  compiling core (3 scala sources)
+2025.09.24 18:05:57 WARN  Invalid text document uri received from build server: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/RedisEventStore.scala
+2025.09.24 18:05:57 WARN  Invalid text document uri received from build server: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event%20store/PostgresEventStore.scala
+2025.09.24 18:05:57 INFO  time: compiled core in 0.12s
+2025.09.24 18:05:59 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:59 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:05:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-59-068.md")
+2025.09.24 18:05:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-05-59-068.md")
+2025.09.24 18:06:00 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:00 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-00-088.md")
+2025.09.24 18:06:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-00-088.md")
+2025.09.24 18:06:00 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-00-324.md")
+2025.09.24 18:06:00 INFO  compiling core (3 scala sources)
+2025.09.24 18:06:00 INFO  time: compiled core in 85ms
+Sept 24, 2025 6:06:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 724
+2025.09.24 18:06:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-06-484.md")
+2025.09.24 18:06:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-06-487.md")
+2025.09.24 18:06:07 INFO  compiling core (3 scala sources)
+2025.09.24 18:06:07 INFO  time: compiled core in 0.19s
+2025.09.24 18:06:11 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:11 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-11-359.md")
+2025.09.24 18:06:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-11-359.md")
+2025.09.24 18:06:11 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-11-487.md")
+2025.09.24 18:06:13 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:13 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-13-597.md")
+2025.09.24 18:06:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-13-597.md")
+2025.09.24 18:06:13 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:13 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-13-979.md")
+2025.09.24 18:06:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-13-979.md")
+2025.09.24 18:06:14 INFO  compiling core (3 scala sources)
+2025.09.24 18:06:14 INFO  time: compiled core in 0.11s
+2025.09.24 18:06:19 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:19 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:19 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-19-051.md")
+2025.09.24 18:06:19 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-19-051.md")
+2025.09.24 18:06:35 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:35 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-35-046.md")
+2025.09.24 18:06:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-35-046.md")
+2025.09.24 18:06:40 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:40 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-40-268.md")
+2025.09.24 18:06:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-40-268.md")
+2025.09.24 18:06:40 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-40-475.md")
+2025.09.24 18:06:40 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-40-742.md")
+2025.09.24 18:06:40 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-40-890.md")
+2025.09.24 18:06:41 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:40 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-41-056.md")
+2025.09.24 18:06:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-41-056.md")
+2025.09.24 18:06:41 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-41-236.md")
+2025.09.24 18:06:42 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:42 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-42-703.md")
+2025.09.24 18:06:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-42-703.md")
+2025.09.24 18:06:43 INFO  compiling core (3 scala sources)
+2025.09.24 18:06:43 INFO  time: compiled core in 73ms
+2025.09.24 18:06:48 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:48 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:06:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-48-142.md")
+2025.09.24 18:06:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-48-142.md")
+2025.09.24 18:06:58 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:06:58 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:06:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-58-227.md")
+2025.09.24 18:06:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-58-227.md")
+2025.09.24 18:06:58 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:06:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-58-367.md")
+2025.09.24 18:06:58 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:06:58 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:06:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-58-602.md")
+2025.09.24 18:06:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-58-602.md")
+2025.09.24 18:06:58 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:06:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-58-753.md")
+2025.09.24 18:06:58 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:06:58 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:06:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-58-956.md")
+2025.09.24 18:06:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-06-58-956.md")
+2025.09.24 18:07:00 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:07:00 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:07:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-07-00-174.md")
+2025.09.24 18:07:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-07-00-175.md")
+2025.09.24 18:07:01 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:07:01 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:07:01 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-07-01-026.md")
+2025.09.24 18:07:01 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-07-01-026.md")
+2025.09.24 18:07:01 INFO  compiling core (3 scala sources)
+2025.09.24 18:07:01 INFO  time: compiled core in 68ms
+2025.09.24 18:07:17 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:07:17 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:07:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-07-17-931.md")
+2025.09.24 18:07:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-07-17-931.md")
+2025.09.24 18:07:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:07:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-07-18-068.md")
+2025.09.24 18:08:47 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/EventStore.scala]
+2025.09.24 18:08:47 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/EventStore.scala]
+2025.09.24 18:08:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-47-847.md")
+2025.09.24 18:08:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-47-847.md")
+2025.09.24 18:08:47 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/EventStore.scala]
+2025.09.24 18:08:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-48-205.md")
+2025.09.24 18:08:48 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/EventStore.scala]
+2025.09.24 18:08:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-48-210.md")
+2025.09.24 18:08:48 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/EventStore.scala]
+2025.09.24 18:08:48 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/EventStore.scala]
+2025.09.24 18:08:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-48-909.md")
+2025.09.24 18:08:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-48-909.md")
+2025.09.24 18:08:49 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/EventStore.scala]
+2025.09.24 18:08:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-49-416.md")
+2025.09.24 18:08:49 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/EventStore.scala]
+2025.09.24 18:08:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-49-423.md")
+2025.09.24 18:08:52 INFO  compiling core (3 scala sources)
+2025.09.24 18:08:52 INFO  time: compiled core in 89ms
+2025.09.24 18:08:53 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:08:53 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:08:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-53-768.md")
+2025.09.24 18:08:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-53-768.md")
+2025.09.24 18:08:55 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:08:55 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:08:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-55-132.md")
+2025.09.24 18:08:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-55-132.md")
+2025.09.24 18:08:55 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:08:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-55-284.md")
+2025.09.24 18:08:55 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:08:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-55-745.md")
+2025.09.24 18:08:55 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:08:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-55-752.md")
+2025.09.24 18:08:55 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:08:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-08-55-888.md")
+2025.09.24 18:09:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-06-237.md")
+2025.09.24 18:09:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-06-237.md")
+2025.09.24 18:09:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-06-330.md")
+2025.09.24 18:09:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-06-453.md")
+2025.09.24 18:09:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-06-458.md")
+2025.09.24 18:09:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-06-693.md")
+2025.09.24 18:09:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-06-775.md")
+Sept 24, 2025 6:09:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:09:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:06 INFO  java.lang.AssertionError: assertion failed: bad position: [95:93] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-09-06-890.md")
+2025.09.24 18:09:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-06-911.md")
+Sept 24, 2025 6:09:07 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:09:06 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:06 INFO  java.lang.AssertionError: assertion failed: bad position: [95:93] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-09-07-061.md")
+2025.09.24 18:09:07 WARN  Could not find semantic tokens for: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala
+2025.09.24 18:09:08 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:08 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-08-066.md")
+2025.09.24 18:09:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-08-066.md")
+2025.09.24 18:09:09 INFO  empty definition using pc, found symbol in pc: gibbon/operations/EventStore. (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-09-732.md")
+2025.09.24 18:09:09 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:09:09 INFO  empty definition using pc, found symbol in pc: gibbon/operations/EventStore. (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-09-732.md")
+2025.09.24 18:09:10 INFO  compiling core (3 scala sources)
+2025.09.24 18:09:10 INFO  time: compiled core in 63ms
+2025.09.24 18:09:13 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:13 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-13-991.md")
+2025.09.24 18:09:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-13-991.md")
+2025.09.24 18:09:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-14-514.md")
+2025.09.24 18:09:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-14-514.md")
+2025.09.24 18:09:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-14-520.md")
+2025.09.24 18:09:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-14-525.md")
+2025.09.24 18:09:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-14-539.md")
+2025.09.24 18:09:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-14-560.md")
+2025.09.24 18:09:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-14-574.md")
+2025.09.24 18:09:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-14-592.md")
+2025.09.24 18:09:14 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:14 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-14-601.md")
+2025.09.24 18:09:17 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:17 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-17-118.md")
+2025.09.24 18:09:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-17-118.md")
+2025.09.24 18:09:17 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-17-291.md")
+2025.09.24 18:09:17 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:17 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-17-395.md")
+2025.09.24 18:09:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-17-395.md")
+2025.09.24 18:09:17 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-17-413.md")
+2025.09.24 18:09:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-18-010.md")
+2025.09.24 18:09:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-18-009.md")
+2025.09.24 18:09:17 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-18-127.md")
+2025.09.24 18:09:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-18-197.md")
+Sept 24, 2025 6:09:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1513
+2025.09.24 18:09:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-18-500.md")
+2025.09.24 18:09:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-18-501.md")
+2025.09.24 18:09:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-18-614.md")
+Sept 24, 2025 6:09:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:09:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:18 INFO  java.lang.AssertionError: assertion failed: bad position: [266:190] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-09-18-729.md")
+2025.09.24 18:09:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-18-740.md")
+Sept 24, 2025 6:09:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:09:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:18 INFO  java.lang.AssertionError: assertion failed: bad position: [266:190] (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-09-18-771.md")
+2025.09.24 18:09:18 WARN  Could not find semantic tokens for: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala
+2025.09.24 18:09:20 INFO  empty definition using pc, found symbol in pc: gibbon/operations/EventStore. (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-20-651.md")
+2025.09.24 18:09:20 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/RedisEventStore.scala]
+2025.09.24 18:09:20 INFO  empty definition using pc, found symbol in pc: gibbon/operations/EventStore. (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-20-651.md")
+2025.09.24 18:09:21 INFO  compiling core (3 scala sources)
+2025.09.24 18:09:21 INFO  time: compiled core in 0.12s
+2025.09.24 18:10:10 INFO  compiling core (3 scala sources)
+2025.09.24 18:10:10 INFO  time: compiled core in 0.12s
+2025.09.24 18:10:13 INFO  compiling core (3 scala sources)
+2025.09.24 18:10:13 INFO  time: compiled core in 95ms
+2025.09.24 18:10:15 INFO  empty definition using pc, found symbol in pc: gibbon/operations/EventStore. (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-09-732.md")
+2025.09.24 18:10:15 INFO  empty definition using pc, found symbol in pc: gibbon/operations/EventStore. (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-09-732.md")
+2025.09.24 18:10:16 INFO  empty definition using pc, found symbol in pc: gibbon/operations/EventStore. (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-09-732.md")
+2025.09.24 18:10:16 INFO  empty definition using pc, found symbol in pc: gibbon/operations/EventStore. (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-09-732.md")
+2025.09.24 18:10:16 INFO  empty definition using pc, found symbol in pc: gibbon/operations/EventStore. (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-09-09-732.md")
+2025.09.24 18:10:21 INFO  compiling core (3 scala sources)
+2025.09.24 18:10:21 INFO  time: compiled core in 92ms
+2025.09.24 18:10:24 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:10:24 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:10:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-10-24-095.md")
+2025.09.24 18:10:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-10-24-095.md")
+Sept 24, 2025 6:10:25 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.24 18:10:25 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:10:25 INFO  java.lang.AssertionError: assertion failed: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala: 111 >= 111 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_compiler-error_(core)_18-10-25-426.md")
+2025.09.24 18:10:27 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:10:27 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:10:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-10-27-023.md")
+2025.09.24 18:10:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-10-27-023.md")
+2025.09.24 18:10:27 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/operations/event_store/PostgresEventStore.scala]
+2025.09.24 18:10:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-09-24/r_empty-definition_(core)_18-10-27-147.md")
+2025.09.24 18:26:38 INFO  compiling core (3 scala sources)
+2025.09.24 18:26:38 INFO  compiling core-test (5 scala sources)
+2025.09.24 18:26:38 INFO  time: compiled core in 0.59s
+2025.09.24 18:26:38 WARN  Invalid text document uri received from build server: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/sinks/SinkTestUtils.scala
+2025.09.24 18:26:38 INFO  time: compiled core-test in 0.41s
+2025.09.24 18:27:03 INFO  compiling core (1 scala source)
+2025.09.24 18:27:03 INFO  time: compiled core in 0.44s

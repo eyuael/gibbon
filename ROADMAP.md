@@ -53,7 +53,7 @@ Gibbon is a lightweight Scala library for building production-ready, backpressur
 - [X] Create runtime abstraction and Pekko implementation
 - [X] Update all core components to use runtime abstraction
 - [X] Add auto-detection and migration utilities
-- [ 1/2X] Update docs and examples
+- [X] Update docs and examples
 
 
 ## Phase 3: Advanced Features (Weeks 5-6)
@@ -63,6 +63,12 @@ Gibbon is a lightweight Scala library for building production-ready, backpressur
 - [X] Add checkpointing for fault tolerance
 - [X] Create state recovery mechanisms
 - [ ] Implement state versioning
+
+### 3.11 State Management
+- [ ] Implement distributed state with Postgres
+- [ ] Implement distributed state with Cassandra
+- [ ] Implement distributed state with HTTP
+
 
 ### 3.2 Backpressure & Flow Control
 - [ ] Implement adaptive batching

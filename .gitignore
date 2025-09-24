@@ -1,3 +1,7 @@
 /.bsp/
 target/
 .DS_Store
+.metals/
+.vscode/
+.scalacache/
+.bloop/
