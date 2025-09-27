@@ -5,12 +5,12 @@ import gibbon.runtime.{TestStreamingRuntime, TestSource}
 import munit.FunSuite
 import scala.concurrent.Await
 import scala.concurrent.duration._
-import scala.concurrent.ExecutionContext.Implicits.global
 import java.io.File
 import java.nio.file.{Files, Paths}
 
 class FileSinkTest extends FunSuite {
   
+  implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
   val runtime = new TestStreamingRuntime()
   implicit val testRuntime: TestStreamingRuntime = runtime
   
@@ -21,7 +21,7 @@ class FileSinkTest extends FunSuite {
   
   test("FileSink should create instance with custom formatter") {
     val customFormatter = (event: Event[String, String]) => s"${event.key}:${event.value}"
-    val sink = FileSink[String, String]("/tmp/test.txt", true, customFormatter)
+    val sink = FileSink[String, String]("/tmp/test.txt", append = true, customFormatter)
     assert(sink != null)
   }
   

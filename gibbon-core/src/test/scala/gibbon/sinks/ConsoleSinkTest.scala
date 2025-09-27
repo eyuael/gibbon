@@ -5,10 +5,10 @@ import gibbon.runtime.{TestStreamingRuntime, TestSource}
 import munit.FunSuite
 import scala.concurrent.Await
 import scala.concurrent.duration._
-import scala.concurrent.ExecutionContext.Implicits.global
 
 class ConsoleSinkTest extends FunSuite {
   
+  implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
   val runtime = new TestStreamingRuntime()
   implicit val testRuntime: TestStreamingRuntime = runtime
   
@@ -47,9 +47,8 @@ class ConsoleSinkTest extends FunSuite {
     val event = Event("key1", "value1", System.currentTimeMillis())
     val source = TestSource(event)
     
-    // For testing purposes, we'll just verify the sink can be created and used
-    val testSink = runtime.foreachSink[Event[String, String]](_ => ())
-    val result = source.runWith(testSink)
+    val runtimeSink = sink.toRuntimeSink()
+    val result = source.runWith(runtimeSink)
     val done = Await.result(result, 3.seconds)
     
     // Should complete successfully
@@ -65,9 +64,8 @@ class ConsoleSinkTest extends FunSuite {
     )
     val source = TestSource(events: _*)
     
-    // For testing purposes, we'll just verify the sink can be created and used
-    val testSink = runtime.foreachSink[Event[String, String]](_ => ())
-    val result = source.runWith(testSink)
+    val runtimeSink = sink.toRuntimeSink()
+    val result = source.runWith(runtimeSink)
     val done = Await.result(result, 3.seconds)
     
     // Should complete successfully

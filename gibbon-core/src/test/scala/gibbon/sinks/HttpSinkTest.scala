@@ -5,10 +5,10 @@ import gibbon.runtime.{TestStreamingRuntime, TestSource}
 import munit.FunSuite
 import scala.concurrent.Await
 import scala.concurrent.duration._
-import scala.concurrent.ExecutionContext.Implicits.global
 
 class HttpSinkTest extends FunSuite {
   
+  implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
   val runtime = new TestStreamingRuntime()
   implicit val testRuntime: TestStreamingRuntime = runtime
   

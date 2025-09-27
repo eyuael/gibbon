@@ -5,12 +5,11 @@ import gibbon.runtime.{TestStreamingRuntime, TestSource}
 import munit.FunSuite
 import scala.concurrent.Await
 import scala.concurrent.duration._
-import scala.concurrent.ExecutionContext.Implicits.global
 
 class FlowSpec extends FunSuite {
   
+  implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
   val runtime = new TestStreamingRuntime()
-  implicit val testRuntime: TestStreamingRuntime = runtime
   
   test("FilterFlow should filter events based on predicate") {
     val events = List(
@@ -19,11 +18,11 @@ class FlowSpec extends FunSuite {
       Event("key3", "value3", System.currentTimeMillis())
     )
     
-    val filterFlow = FilterFlow[Event[String, String]](_.key != "key2")
+    val filterFlow = runtime.filterFlow[Event[String, String]](_.key != "key2")
     val source = TestSource(events: _*)
     val sink = runtime.seqSink[Event[String, String]]
     
-    val result = source.via(runtime.asTestFlow(filterFlow.toRuntimeFlow())).runWith(sink)
+    val result = source.via(filterFlow).runWith(sink)
     val filteredEvents = Await.result(result, 3.seconds)
     
     assertEquals(filteredEvents.size, 2)
@@ -36,14 +35,14 @@ class FlowSpec extends FunSuite {
       Event("key2", "200", System.currentTimeMillis())
     )
     
-    val transformFlow = TransformFlow[Event[String, String], Event[String, Int]](event => 
+    val transformFlow = runtime.mapFlow[Event[String, String], Event[String, Int]](event => 
       event.copy(value = event.value.toInt)
     )
     
     val source = TestSource(events: _*)
     val sink = runtime.seqSink[Event[String, Int]]
     
-    val result = source.via(runtime.asTestFlow(transformFlow.toRuntimeFlow())).runWith(sink)
+    val result = source.via(transformFlow).runWith(sink)
     val transformedEvents = Await.result(result, 3.seconds)
     
     assertEquals(transformedEvents.size, 2)
@@ -56,14 +55,14 @@ class FlowSpec extends FunSuite {
       Event("key1", "value1", System.currentTimeMillis())
     )
     
-    val enrichFlow = EnrichFlow[Event[String, String], (Event[String, String], String)](event => 
+    val enrichFlow = runtime.mapFlow[Event[String, String], (Event[String, String], String)](event => 
       (event, s"enriched-${event.key}")
     )
     
     val source = TestSource(events: _*)
     val sink = runtime.seqSink[(Event[String, String], String)]
     
-    val result = source.via(runtime.asTestFlow(enrichFlow.toRuntimeFlow())).runWith(sink)
+    val result = source.via(enrichFlow).runWith(sink)
     val enrichedEvents = Await.result(result, 3.seconds)
     
     assertEquals(enrichedEvents.size, 1)

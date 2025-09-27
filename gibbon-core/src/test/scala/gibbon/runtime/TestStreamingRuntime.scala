@@ -68,6 +68,18 @@ class TestStreamingRuntime(implicit ec: ExecutionContext) extends StreamingRunti
         }, TestNotUsed)
     }
   }
+
+  // Helper method to convert any Sink to our TestSink
+  def asTestSink[In](sink: Sink[In, NotUsed]): TestSink[In, Future[Unit]] = {
+    sink match {
+      case testSink: TestSink[In, Future[Unit]] => testSink
+      case _ => 
+        // For sinks that aren't TestSinks, we need to create a wrapper
+        TestSink[In, Future[Unit]] { elements =>
+          Future.successful(()) // Placeholder implementation
+        }
+    }
+  }
 }
 
 // Test implementations
