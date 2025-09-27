@@ -114,12 +114,17 @@ abstract class VersionedEventStoreSpec extends FunSuite {
   
   test("should get all versioned values") {
     val store = createStore()
+    println(s"DEBUG: Store type: ${store.getClass.getSimpleName}")
     
     val result = for {
-      _ <- store.putVersioned("key1", "value1")
-      _ <- store.putVersioned("key2", "value2")
-      _ <- store.putVersioned("key3", "value3")
+      put1 <- store.putVersioned("key1", "value1")
+      _ = println(s"DEBUG: Put result 1: $put1")
+      put2 <- store.putVersioned("key2", "value2")
+      _ = println(s"DEBUG: Put result 2: $put2")
+      put3 <- store.putVersioned("key3", "value3")
+      _ = println(s"DEBUG: Put result 3: $put3")
       allValues <- store.getAllVersioned
+      _ = println(s"DEBUG: All values: $allValues")
     } yield allValues
     
     val allValues = Await.result(result, 3.seconds)

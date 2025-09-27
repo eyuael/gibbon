@@ -111,4 +111,42 @@ class PostgresEventStore[K: Encoder: Decoder, V: Encoder: Decoder](
       conn.close()
     }
   }
+  
+  /**
+   * Get all keys in the store
+   * 
+   * @return List of all keys
+   */
+  def getAllKeys: Future[List[K]] = Future {
+    val conn = DriverManager.getConnection(jdbcUrl, username, password)
+    try {
+      val stmt = conn.createStatement()
+      val rs = stmt.executeQuery(s"SELECT key_json FROM $tableName")
+      
+      val results = scala.collection.mutable.ListBuffer[K]()
+      while (rs.next()) {
+        decode[K](rs.getString("key_json")).toOption.foreach { key =>
+          results += key
+        }
+      }
+      results.toList
+    } finally {
+      conn.close()
+    }
+  }
+  
+  /**
+   * Clear all data from the store
+   * 
+   * @return Future indicating completion
+   */
+  def clear(): Future[Unit] = Future {
+    val conn = DriverManager.getConnection(jdbcUrl, username, password)
+    try {
+      val stmt = conn.createStatement()
+      stmt.executeUpdate(s"DELETE FROM $tableName")
+    } finally {
+      conn.close()
+    }
+  }
 }

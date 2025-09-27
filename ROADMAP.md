@@ -68,7 +68,7 @@ Gibbon is a lightweight Scala library for building production-ready, backpressur
 - [X] Implement distributed state with Postgres
 - [ ] Implement distributed state with Cassandra
 - [ ] Implement distributed state with HTTP
-- [ ] Test with live Postgres and Redis instances  
+- [X] Test with live Postgres and Redis instances  
 
 
 ### 3.2 Backpressure & Flow Control

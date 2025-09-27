@@ -227,8 +227,31 @@ class VersionedPostgresEventStore[K: Encoder: Decoder, V: Encoder: Decoder](
   }
   
   override def getAllVersioned: Future[Map[K, VersionedValue[V]]] = {
-    // This is a simplified implementation - in practice you'd want to scan PostgreSQL keys
-    Future.successful(Map.empty)
+    // Get all data keys by filtering the PostgreSQL table for data entries
+    postgresStore.getAllKeys.flatMap { allKeys =>
+      // Filter keys that start with our data prefix
+      val dataKeys = allKeys.filter(_.startsWith(DATA_PREFIX))
+      
+      // Fetch all versioned values for data keys
+      val futures = dataKeys.map { keyStr =>
+        postgresStore.get(keyStr).map {
+          case Some(jsonStr) =>
+            try {
+              val versionedValue = decodeVersionedValue(jsonStr)
+              val actualKey = decodeKey(keyStr.substring(DATA_PREFIX.length))
+              Some(actualKey -> versionedValue)
+            } catch {
+              case _: Exception => None
+            }
+          case None => None
+        }
+      }
+      
+      // Combine all results into a map
+      Future.sequence(futures).map { results =>
+        results.flatten.toMap
+      }
+    }
   }
   
   // Recovery operations
@@ -257,17 +280,28 @@ class VersionedPostgresEventStore[K: Encoder: Decoder, V: Encoder: Decoder](
       return Future.failed(new UnsupportedOperationException("Recovery is disabled"))
     }
     
-    postgresStore.get(checkpointKey(checkpointId)).map {
+    postgresStore.get(checkpointId).flatMap {
       case Some(jsonStr) =>
         val recoveryState = parse(jsonStr).flatMap(_.as[RecoveryState]).getOrElse(
           throw new IllegalArgumentException(s"Failed to decode recovery state: $jsonStr")
         )
+        
+        // For a full restore, we would:
+        // 1. Clear all existing data keys
+        // 2. Replay operations from the checkpoint
+        // 3. Restore the exact state at the checkpoint time
+        //
+        // Current simplified implementation only restores metadata:
         _currentVersion = recoveryState.lastProcessedVersion
         lastCheckpointId = Some(checkpointId)
         lastCheckpointTime = Some(recoveryState.checkpointTimestamp)
-        true
+        
+        // TODO: Implement full data restoration by replaying operations
+        // from the checkpoint to reconstruct the exact state
+        
+        Future.successful(true)
       case None =>
-        false
+        Future.successful(false)
     }
   }
   
@@ -308,14 +342,18 @@ class VersionedPostgresEventStore[K: Encoder: Decoder, V: Encoder: Decoder](
   // Additional methods
   
   override def getStatistics: Future[StoreStatistics] = {
-    Future.successful(StoreStatistics(
-      totalKeys = 0L, // Would need to scan PostgreSQL to get actual count
-      totalOperations = operationCounter,
-      currentVersion = _currentVersion,
-      lastCheckpointId = lastCheckpointId,
-      lastCheckpointTimestamp = lastCheckpointTime,
-      isConsistent = true
-    ))
+    // Count actual data keys in PostgreSQL
+    postgresStore.getAllKeys.map { allKeys =>
+      val dataKeys = allKeys.filter(_.startsWith(DATA_PREFIX))
+      StoreStatistics(
+        totalKeys = dataKeys.length.toLong,
+        totalOperations = operationCounter,
+        currentVersion = _currentVersion,
+        lastCheckpointId = lastCheckpointId,
+        lastCheckpointTimestamp = lastCheckpointTime,
+        isConsistent = true
+      )
+    }
   }
   
   /**
@@ -334,12 +372,13 @@ class VersionedPostgresEventStore[K: Encoder: Decoder, V: Encoder: Decoder](
     * @return Future indicating completion
     */
   def clear(): Future[Unit] = {
-    // This would need to scan and delete all keys with our prefixes
-    // Simplified implementation
-    _currentVersion = 0L
-    operationCounter = 0L
-    lastCheckpointId = None
-    lastCheckpointTime = None
-    Future.successful(())
+    // Clear all data from PostgreSQL and reset counters
+    postgresStore.clear().map { _ =>
+      // Reset counters
+      _currentVersion = 0L
+      operationCounter = 0L
+      lastCheckpointId = None
+      lastCheckpointTime = None
+    }
   }
 }

@@ -18,7 +18,9 @@ class RedisEventStore[K: Encoder: Decoder, V: Encoder: Decoder](
   }
   
   override def put(key: K, value: V): Future[Unit] = Future {
-    store.put(key.asJson.noSpaces, value.asJson.noSpaces)
+    val keyStr = key.asJson.noSpaces
+    println(s"DEBUG: put called with key: $keyStr, store object id: ${System.identityHashCode(store)}")
+    store.put(keyStr, value.asJson.noSpaces)
     ()
   }
   
@@ -34,5 +36,49 @@ class RedisEventStore[K: Encoder: Decoder, V: Encoder: Decoder](
         v <- decode[V](valueStr).toOption
       } yield k -> v
     }
+  }
+  
+  /**
+   * Scan for keys matching a pattern
+   * 
+   * @param pattern Pattern to match keys against (regex pattern)
+   * @return List of matching string keys
+   */
+  def scanKeys(pattern: String): Future[List[String]] = Future {
+    // Debug: print all keys and the pattern
+    println(s"DEBUG: scanKeys called with pattern: $pattern")
+    println(s"DEBUG: store keys: ${store.keys.toList}")
+    println(s"DEBUG: store object id: ${System.identityHashCode(store)}")
+    // Don't replace * with .* if the pattern already contains .*
+    val regexPattern = if (pattern.contains(".*")) pattern else pattern.replace("*", ".*")
+    println(s"DEBUG: regex pattern: $regexPattern")
+    val result = store.keys.filter { key =>
+      val matches = key.matches(regexPattern)
+      println(s"DEBUG: Testing key '$key' against pattern '$regexPattern': $matches")
+      matches
+    }.toList
+    println(s"DEBUG: scanKeys result: $result")
+    result
+  }
+  
+  /**
+   * Get all keys in the store
+   * 
+   * @return List of all keys
+   */
+  def getAllKeys: Future[List[K]] = Future {
+    store.keys.flatMap { keyStr =>
+      decode[K](keyStr).toOption
+    }.toList
+  }
+  
+  /**
+   * Clear all data from the store
+   * 
+   * @return Future indicating completion
+   */
+  def clear(): Future[Unit] = Future {
+    store.clear()
+    ()
   }
 }

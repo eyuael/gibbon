@@ -31,18 +31,24 @@ class VersionedRedisEventStoreSpec extends VersionedEventStoreSpec {
   
   override def createStore(): VersionedEventStore[String, String] = {
     try {
+      println("DEBUG: Attempting to create Redis store...")
       val store = VersionedEventStore.redis[String, String](
         connectionString = "redis://localhost:6379/15",
         config = VersionedStoreConfig()
       )
+      println(s"DEBUG: Created store of type: ${store.getClass.getSimpleName}")
       // Test connection
       val testResult = Await.result(store.getStatistics, 2.seconds)
+      println(s"DEBUG: Store statistics test successful: $testResult")
       store
     } catch {
-      case _: Exception =>
+      case e: Exception =>
+        println(s"DEBUG: Failed to create Redis store: ${e.getMessage}")
         // If connection fails, skip Redis tests
         redisAvailable = false
-        VersionedEventStore.inMemory[String, String](config = VersionedStoreConfig())
+        val fallback = VersionedEventStore.inMemory[String, String](config = VersionedStoreConfig())
+        println(s"DEBUG: Using fallback in-memory store: ${fallback.getClass.getSimpleName}")
+        fallback
     }
   }
   
