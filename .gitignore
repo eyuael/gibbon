@@ -6,3 +6,5 @@ target/
 .scalacache/
 .bloop/
 .scala-build/
+.sonatype/
+sonatype.sbt

@@ -20,9 +20,20 @@
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.11.6/sbt-1.11.6.jar",
             "/Users/eyuaelberhe/.sbt/boot/scala-2.12.20/lib/scala-library.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.13/sbt-bloop_2.12_1.0-2.0.13.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.12_1.0/3.11.3/sbt-sonatype_2.12_1.0-3.11.3.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-pgp_2.12_1.0/2.2.1/sbt-pgp-2.2.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-release_2.12_1.0/1.1.0/sbt-release-1.1.0.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.11.6/main_2.12-1.11.6.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.10.5/io_2.12-1.10.5.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/sonatype/spice/zapper/spice-zapper/1.3/spice-zapper-1.3.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-http_2.12/24.7.1/airframe-http_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-sttp-core_2.12/0.3.0/sonatype-central-client-sttp-core_2.12-0.3.0.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-upickle_2.12/0.3.0/sonatype-central-client-upickle_2.12-0.3.0.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/slf4j-backend_2.12/4.0.0-M16/slf4j-backend_2.12-4.0.0-M16.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/upickle_2.12/4.0.0-M16/upickle_2.12-4.0.0-M16.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/pgp-library_2.12/2.2.1/pgp-library_2.12-2.2.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.4.0/gigahorse-okhttp_2.12-0.4.0.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.11.6/logic_2.12-1.11.6.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.11.6/actions_2.12-1.11.6.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.11.6/main-settings_2.12-1.11.6.jar",
@@ -46,6 +57,26 @@
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.12/0.1.12/unroll-annotation_2.12-0.1.12.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf-proto/1.9/hawtbuf-proto-1.9.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-rx_2.12/24.7.1/airframe-rx_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-control_2.12/24.7.1/airframe-control_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-surface_2.12/24.7.1/airframe-surface_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-json_2.12/24.7.1/airframe-json_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-codec_2.12/24.7.1/airframe-codec_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe_2.12/24.7.1/airframe_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-core_2.12/0.3.0/sonatype-central-client-core_2.12-0.3.0.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/core_2.12/4.0.0-M16/core_2.12-4.0.0-M16.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/3.3.1/upickle_2.12-3.3.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/json-common_2.12/4.0.0-M16/json-common_2.12-4.0.0-M16.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk15on/1.69/bcpg-jdk15on-1.69.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.9.3/gigahorse-core_2.12-0.9.3.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.11.6/util-relation_2.12-1.11.6.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.11.6/completion_2.12-1.11.6.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.11.6/task-system_2.12-1.11.6.jar",
@@ -74,18 +105,34 @@
             "/Users/eyuaelberhe/.sbt/boot/scala-2.12.20/lib/scala-reflect.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
             "/Users/eyuaelberhe/.sbt/boot/scala-2.12.20/lib/scala-compiler.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-log_2.12/24.7.1/airframe-log_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/24.7.1/airframe-msgpack_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-metrics_2.12/24.7.1/airframe-metrics_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-ulid_2.12/24.7.1/airframe-ulid_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-di-macros_2.12/24.7.1/airframe-di-macros_2.12-24.7.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.12/1.7.10/core_2.12-1.7.10.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.12/1.3.19/core_2.12-1.3.19.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.12/1.3.19/ws_2.12-1.3.19.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.12/3.3.1/ujson_2.12-3.3.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.12/3.3.1/upack_2.12-3.3.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.12/3.3.1/upickle-implicits_2.12-3.3.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.27.1/jline-reader-3.27.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-builtins/3.27.1/jline-builtins-3.27.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-agent/1.11.6/test-agent-1.11.6.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/1.3.2/shaded-jawn-parser_2.12-1.3.2.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.9.3/gigahorse-core_2.12-0.9.3.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpclient5/0.9.3/shaded-apache-httpclient5-0.9.3.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.10.8/compiler-bridge_2.12-1.10.8.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.10.8/zinc-classfile_2.12-1.10.8.jar",
@@ -93,17 +140,18 @@
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.10.8/zinc-persist_2.12-1.10.8.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.10.1/sjson-new-murmurhash_2.12-0.10.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.6.3/ipcsocket-1.6.3.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.16/zero-allocation-hashing-0.16.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.3.14/logback-core-1.3.14.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/msgpack/msgpack-core/0.9.8/msgpack-core-0.9.8.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.12/3.3.1/upickle-core_2.12-3.3.1.jar",
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.27.1/jline-style-3.27.1.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.10.8/zinc-persist-core-assembly-1.10.8.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.0/jna-5.12.0.jar",
             "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.0/jna-platform-5.12.0.jar",
-            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
+            "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/1.1.0/geny_2.12-1.1.0.jar"
         ],
         "out": "/Users/eyuaelberhe/gibbon/project/.bloop/gibbon-build",
         "classesDir": "/Users/eyuaelberhe/gibbon/project/.bloop/gibbon-build/scala-2.12/sbt-1.0/classes",
@@ -148,8 +196,8 @@
                 "import _root_.sbt._",
                 "import _root_.sbt.Keys._",
                 "import _root_.sbt.nio.Keys._",
-                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._",
-                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin"
+                "import _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.xerial.sbt.Sonatype.autoImport._, _root_.com.jsuereth.sbtpgp.SbtPgp.autoImport._, _root_.sbtrelease.ReleasePlugin.autoImport._",
+                "import _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.xerial.sbt.Sonatype, _root_.com.jsuereth.sbtpgp.SbtPgp, _root_.sbtrelease.ReleasePlugin"
             ]
         },
         "test": {
@@ -231,10 +279,66 @@
             "classpath": [
                 "/Users/eyuaelberhe/gibbon/project/.bloop/gibbon-build/scala-2.12/sbt-1.0/classes",
                 "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.13/sbt-bloop_2.12_1.0-2.0.13.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.12_1.0/3.11.3/sbt-sonatype_2.12_1.0-3.11.3.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-pgp_2.12_1.0/2.2.1/sbt-pgp-2.2.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-release_2.12_1.0/1.1.0/sbt-release-1.1.0.jar",
                 "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/sonatype/spice/zapper/spice-zapper/1.3/spice-zapper-1.3.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-http_2.12/24.7.1/airframe-http_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-sttp-core_2.12/0.3.0/sonatype-central-client-sttp-core_2.12-0.3.0.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-upickle_2.12/0.3.0/sonatype-central-client-upickle_2.12-0.3.0.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/slf4j-backend_2.12/4.0.0-M16/slf4j-backend_2.12-4.0.0-M16.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/upickle_2.12/4.0.0-M16/upickle_2.12-4.0.0-M16.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/pgp-library_2.12/2.2.1/pgp-library_2.12-2.2.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.4.0/gigahorse-okhttp_2.12-0.4.0.jar",
                 "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.jar",
                 "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/unroll-annotation_2.12/0.1.12/unroll-annotation_2.12-0.1.12.jar",
-                "/Users/eyuaelberhe/.sbt/boot/scala-2.12.20/lib/scala-library.jar"
+                "/Users/eyuaelberhe/.sbt/boot/scala-2.12.20/lib/scala-library.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf-proto/1.9/hawtbuf-proto-1.9.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-rx_2.12/24.7.1/airframe-rx_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-control_2.12/24.7.1/airframe-control_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-surface_2.12/24.7.1/airframe-surface_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-json_2.12/24.7.1/airframe-json_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-codec_2.12/24.7.1/airframe-codec_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe_2.12/24.7.1/airframe_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.12.0/scala-collection-compat_2.12-2.12.0.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-core_2.12/0.3.0/sonatype-central-client-core_2.12-0.3.0.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/core_2.12/4.0.0-M16/core_2.12-4.0.0-M16.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/3.3.1/upickle_2.12-3.3.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/json-common_2.12/4.0.0-M16/json-common_2.12-4.0.0-M16.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk15on/1.69/bcpg-jdk15on-1.69.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.4.0/gigahorse-core_2.12-0.4.0.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-log_2.12/24.7.1/airframe-log_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/.sbt/boot/scala-2.12.20/lib/scala-reflect.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/24.7.1/airframe-msgpack_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-metrics_2.12/24.7.1/airframe-metrics_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-ulid_2.12/24.7.1/airframe-ulid_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-di-macros_2.12/24.7.1/airframe-di-macros_2.12-24.7.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.12/1.7.10/core_2.12-1.7.10.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.12/1.3.19/core_2.12-1.3.19.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.12/1.3.19/ws_2.12-1.3.19.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.12/3.3.1/ujson_2.12-3.3.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.12/3.3.1/upack_2.12-3.3.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.12/3.3.1/upickle-implicits_2.12-3.3.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.3.14/logback-core-1.3.14.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/msgpack/msgpack-core/0.9.8/msgpack-core-0.9.8.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.12/3.3.1/upickle-core_2.12-3.3.1.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0.jar",
+                "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/1.1.0/geny_2.12-1.1.0.jar"
             ]
         },
         "resolution": {
@@ -257,6 +361,57 @@
                     ]
                 },
                 {
+                    "organization": "org.xerial.sbt",
+                    "name": "sbt-sonatype",
+                    "version": "3.11.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-sonatype",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.12_1.0/3.11.3/sbt-sonatype_2.12_1.0-3.11.3.jar"
+                        },
+                        {
+                            "name": "sbt-sonatype",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/sbt/sbt-sonatype_2.12_1.0/3.11.3/sbt-sonatype_2.12_1.0-3.11.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.sbt",
+                    "name": "sbt-pgp",
+                    "version": "2.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-pgp",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-pgp_2.12_1.0/2.2.1/sbt-pgp-2.2.1.jar"
+                        },
+                        {
+                            "name": "sbt-pgp",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-pgp_2.12_1.0/2.2.1/sbt-pgp-2.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.sbt",
+                    "name": "sbt-release",
+                    "version": "1.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sbt-release",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-release_2.12_1.0/1.1.0/sbt-release-1.1.0.jar"
+                        },
+                        {
+                            "name": "sbt-release",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/sbt-release_2.12_1.0/1.1.0/sbt-release-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "ch.epfl.scala",
                     "name": "bloop-config_2.12",
                     "version": "2.3.2",
@@ -270,6 +425,142 @@
                             "name": "bloop-config_2.12",
                             "classifier": "sources",
                             "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.2/bloop-config_2.12-2.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.sonatype.spice.zapper",
+                    "name": "spice-zapper",
+                    "version": "1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spice-zapper",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/sonatype/spice/zapper/spice-zapper/1.3/spice-zapper-1.3.jar"
+                        },
+                        {
+                            "name": "spice-zapper",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/sonatype/spice/zapper/spice-zapper/1.3/spice-zapper-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-http_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-http_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-http_2.12/24.7.1/airframe-http_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-http_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-http_2.12/24.7.1/airframe-http_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lumidion",
+                    "name": "sonatype-central-client-sttp-core_2.12",
+                    "version": "0.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sonatype-central-client-sttp-core_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-sttp-core_2.12/0.3.0/sonatype-central-client-sttp-core_2.12-0.3.0.jar"
+                        },
+                        {
+                            "name": "sonatype-central-client-sttp-core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-sttp-core_2.12/0.3.0/sonatype-central-client-sttp-core_2.12-0.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lumidion",
+                    "name": "sonatype-central-client-upickle_2.12",
+                    "version": "0.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sonatype-central-client-upickle_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-upickle_2.12/0.3.0/sonatype-central-client-upickle_2.12-0.3.0.jar"
+                        },
+                        {
+                            "name": "sonatype-central-client-upickle_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-upickle_2.12/0.3.0/sonatype-central-client-upickle_2.12-0.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.client4",
+                    "name": "slf4j-backend_2.12",
+                    "version": "4.0.0-M16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-backend_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/slf4j-backend_2.12/4.0.0-M16/slf4j-backend_2.12-4.0.0-M16.jar"
+                        },
+                        {
+                            "name": "slf4j-backend_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/slf4j-backend_2.12/4.0.0-M16/slf4j-backend_2.12-4.0.0-M16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.client4",
+                    "name": "upickle_2.12",
+                    "version": "4.0.0-M16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/upickle_2.12/4.0.0-M16/upickle_2.12-4.0.0-M16.jar"
+                        },
+                        {
+                            "name": "upickle_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/upickle_2.12/4.0.0-M16/upickle_2.12-4.0.0-M16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.sbt",
+                    "name": "pgp-library_2.12",
+                    "version": "2.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pgp-library_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/pgp-library_2.12/2.2.1/pgp-library_2.12-2.2.1.jar"
+                        },
+                        {
+                            "name": "pgp-library_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/sbt/pgp-library_2.12/2.2.1/pgp-library_2.12-2.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.eed3si9n",
+                    "name": "gigahorse-okhttp_2.12",
+                    "version": "0.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gigahorse-okhttp_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.4.0/gigahorse-okhttp_2.12-0.4.0.jar"
+                        },
+                        {
+                            "name": "gigahorse-okhttp_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.4.0/gigahorse-okhttp_2.12-0.4.0-sources.jar"
                         }
                     ]
                 },
@@ -321,6 +612,686 @@
                             "name": "scala-library",
                             "classifier": "sources",
                             "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "16.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient",
+                    "version": "4.3.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpclient",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jcl-over-slf4j",
+                    "version": "1.7.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jcl-over-slf4j",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.fusesource.hawtbuf",
+                    "name": "hawtbuf-proto",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hawtbuf-proto",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf-proto/1.9/hawtbuf-proto-1.9.jar"
+                        },
+                        {
+                            "name": "hawtbuf-proto",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf-proto/1.9/hawtbuf-proto-1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-rx_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-rx_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-rx_2.12/24.7.1/airframe-rx_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-rx_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-rx_2.12/24.7.1/airframe-rx_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-control_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-control_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-control_2.12/24.7.1/airframe-control_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-control_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-control_2.12/24.7.1/airframe-control_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-surface_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-surface_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-surface_2.12/24.7.1/airframe-surface_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-surface_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-surface_2.12/24.7.1/airframe-surface_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-json_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-json_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-json_2.12/24.7.1/airframe-json_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-json_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-json_2.12/24.7.1/airframe-json_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-codec_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-codec_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-codec_2.12/24.7.1/airframe-codec_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-codec_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-codec_2.12/24.7.1/airframe-codec_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe_2.12/24.7.1/airframe_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe_2.12/24.7.1/airframe_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lumidion",
+                    "name": "sonatype-central-client-core_2.12",
+                    "version": "0.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sonatype-central-client-core_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-core_2.12/0.3.0/sonatype-central-client-core_2.12-0.3.0.jar"
+                        },
+                        {
+                            "name": "sonatype-central-client-core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lumidion/sonatype-central-client-core_2.12/0.3.0/sonatype-central-client-core_2.12-0.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.client4",
+                    "name": "core_2.12",
+                    "version": "4.0.0-M16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/core_2.12/4.0.0-M16/core_2.12-4.0.0-M16.jar"
+                        },
+                        {
+                            "name": "core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/core_2.12/4.0.0-M16/core_2.12-4.0.0-M16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle_2.12",
+                    "version": "3.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/3.3.1/upickle_2.12-3.3.1.jar"
+                        },
+                        {
+                            "name": "upickle_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.12/3.3.1/upickle_2.12-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.client4",
+                    "name": "json-common_2.12",
+                    "version": "4.0.0-M16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "json-common_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/json-common_2.12/4.0.0-M16/json-common_2.12-4.0.0-M16.jar"
+                        },
+                        {
+                            "name": "json-common_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client4/json-common_2.12/4.0.0-M16/json-common_2.12-4.0.0-M16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcpg-jdk15on",
+                    "version": "1.69",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcpg-jdk15on",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk15on/1.69/bcpg-jdk15on-1.69.jar"
+                        },
+                        {
+                            "name": "bcpg-jdk15on",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk15on/1.69/bcpg-jdk15on-1.69-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.12",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.squareup.okhttp3",
+                    "name": "okhttp",
+                    "version": "3.14.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "okhttp",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.jar"
+                        },
+                        {
+                            "name": "okhttp",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.fusesource.hawtbuf",
+                    "name": "hawtbuf",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hawtbuf",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9.jar"
+                        },
+                        {
+                            "name": "hawtbuf",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-log_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-log_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-log_2.12/24.7.1/airframe-log_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-log_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-log_2.12/24.7.1/airframe-log_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/eyuaelberhe/.sbt/boot/scala-2.12.20/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.20/scala-reflect-2.12.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-msgpack_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-msgpack_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/24.7.1/airframe-msgpack_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-msgpack_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/24.7.1/airframe-msgpack_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-metrics_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-metrics_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-metrics_2.12/24.7.1/airframe-metrics_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-metrics_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-metrics_2.12/24.7.1/airframe-metrics_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-ulid_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-ulid_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-ulid_2.12/24.7.1/airframe-ulid_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-ulid_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-ulid_2.12/24.7.1/airframe-ulid_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-di-macros_2.12",
+                    "version": "24.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-di-macros_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-di-macros_2.12/24.7.1/airframe-di-macros_2.12-24.7.1.jar"
+                        },
+                        {
+                            "name": "airframe-di-macros_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-di-macros_2.12/24.7.1/airframe-di-macros_2.12-24.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.annotation",
+                    "name": "javax.annotation-api",
+                    "version": "1.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.annotation-api",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar"
+                        },
+                        {
+                            "name": "javax.annotation-api",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.model",
+                    "name": "core_2.12",
+                    "version": "1.7.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.12/1.7.10/core_2.12-1.7.10.jar"
+                        },
+                        {
+                            "name": "core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_2.12/1.7.10/core_2.12-1.7.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.shared",
+                    "name": "core_2.12",
+                    "version": "1.3.19",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "core_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.12/1.3.19/core_2.12-1.3.19.jar"
+                        },
+                        {
+                            "name": "core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_2.12/1.3.19/core_2.12-1.3.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.sttp.shared",
+                    "name": "ws_2.12",
+                    "version": "1.3.19",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ws_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.12/1.3.19/ws_2.12-1.3.19.jar"
+                        },
+                        {
+                            "name": "ws_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_2.12/1.3.19/ws_2.12-1.3.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "ujson_2.12",
+                    "version": "3.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ujson_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.12/3.3.1/ujson_2.12-3.3.1.jar"
+                        },
+                        {
+                            "name": "ujson_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.12/3.3.1/ujson_2.12-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upack_2.12",
+                    "version": "3.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upack_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.12/3.3.1/upack_2.12-3.3.1.jar"
+                        },
+                        {
+                            "name": "upack_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upack_2.12/3.3.1/upack_2.12-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-implicits_2.12",
+                    "version": "3.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-implicits_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.12/3.3.1/upickle-implicits_2.12-3.3.1.jar"
+                        },
+                        {
+                            "name": "upickle-implicits_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-implicits_2.12/3.3.1/upickle-implicits_2.12-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcprov-jdk15on",
+                    "version": "1.69",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "bcprov-jdk15on",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.jar"
+                        },
+                        {
+                            "name": "bcprov-jdk15on",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.squareup.okio",
+                    "name": "okio",
+                    "version": "1.17.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "okio",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar"
+                        },
+                        {
+                            "name": "okio",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.17.2/okio-1.17.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.3.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.3.14/logback-core-1.3.14.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.3.14/logback-core-1.3.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.msgpack",
+                    "name": "msgpack-core",
+                    "version": "0.9.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "msgpack-core",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/msgpack/msgpack-core/0.9.8/msgpack-core-0.9.8.jar"
+                        },
+                        {
+                            "name": "msgpack-core",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/msgpack/msgpack-core/0.9.8/msgpack-core-0.9.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-core_2.12",
+                    "version": "3.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-core_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.12/3.3.1/upickle-core_2.12-3.3.1.jar"
+                        },
+                        {
+                            "name": "upickle-core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.12/3.3.1/upickle-core_2.12-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.12",
+                    "version": "1.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/1.1.0/geny_2.12-1.1.0.jar"
+                        },
+                        {
+                            "name": "geny_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.12/1.1.0/geny_2.12-1.1.0-sources.jar"
                         }
                     ]
                 },
@@ -729,6 +1700,40 @@
                             "name": "file-tree-views",
                             "classifier": "sources",
                             "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.12/file-tree-views-2.1.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.12",
+                    "version": "2.13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.eed3si9n",
+                    "name": "gigahorse-core_2.12",
+                    "version": "0.9.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gigahorse-core_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.9.3/gigahorse-core_2.12-0.9.3.jar"
+                        },
+                        {
+                            "name": "gigahorse-core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.9.3/gigahorse-core_2.12-0.9.3-sources.jar"
                         }
                     ]
                 },
@@ -1158,23 +2163,6 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang",
-                    "name": "scala-reflect",
-                    "version": "2.12.20",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-reflect",
-                            "path": "/Users/eyuaelberhe/.sbt/boot/scala-2.12.20/lib/scala-reflect.jar"
-                        },
-                        {
-                            "name": "scala-reflect",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.20/scala-reflect-2.12.20-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.checkerframework",
                     "name": "checker-qual",
                     "version": "3.4.1",
@@ -1205,40 +2193,6 @@
                             "name": "error_prone_annotations",
                             "classifier": "sources",
                             "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-collection-compat_2.12",
-                    "version": "2.13.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-collection-compat_2.12",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.jar"
-                        },
-                        {
-                            "name": "scala-collection-compat_2.12",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.slf4j",
-                    "name": "slf4j-api",
-                    "version": "1.7.36",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "slf4j-api",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
-                        },
-                        {
-                            "name": "slf4j-api",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
                         }
                     ]
                 },
@@ -1290,6 +2244,40 @@
                             "name": "ivy",
                             "classifier": "sources",
                             "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41/ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "ssl-config-core_2.12",
+                    "version": "0.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ssl-config-core_2.12",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.12",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
                         }
                     ]
                 },
@@ -1392,23 +2380,6 @@
                             "name": "shaded-jawn-parser_2.12",
                             "classifier": "sources",
                             "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/1.3.2/shaded-jawn-parser_2.12-1.3.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.eed3si9n",
-                    "name": "gigahorse-core_2.12",
-                    "version": "0.9.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "gigahorse-core_2.12",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.9.3/gigahorse-core_2.12-0.9.3.jar"
-                        },
-                        {
-                            "name": "gigahorse-core_2.12",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.9.3/gigahorse-core_2.12-0.9.3-sources.jar"
                         }
                     ]
                 },
@@ -1532,23 +2503,6 @@
                     ]
                 },
                 {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-parser-combinators_2.12",
-                    "version": "1.1.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-parser-combinators_2.12",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
-                        },
-                        {
-                            "name": "scala-parser-combinators_2.12",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "net.openhft",
                     "name": "zero-allocation-hashing",
                     "version": "0.16",
@@ -1583,6 +2537,23 @@
                     ]
                 },
                 {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.jline",
                     "name": "jline-style",
                     "version": "3.27.1",
@@ -1596,40 +2567,6 @@
                             "name": "jline-style",
                             "classifier": "sources",
                             "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.27.1/jline-style-3.27.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe",
-                    "name": "ssl-config-core_2.12",
-                    "version": "0.6.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "ssl-config-core_2.12",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar"
-                        },
-                        {
-                            "name": "ssl-config-core_2.12",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.reactivestreams",
-                    "name": "reactive-streams",
-                    "version": "1.0.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "reactive-streams",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
-                        },
-                        {
-                            "name": "reactive-streams",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
                         }
                     ]
                 },
@@ -1698,23 +2635,6 @@
                             "name": "jna-platform",
                             "classifier": "sources",
                             "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.0/jna-platform-5.12.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe",
-                    "name": "config",
-                    "version": "1.4.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "config",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
-                        },
-                        {
-                            "name": "config",
-                            "classifier": "sources",
-                            "path": "/Users/eyuaelberhe/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
                         }
                     ]
                 },

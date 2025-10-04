@@ -1,5 +1,7 @@
 # Gibbon
 
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.eyuael/gibbon-core_2.13.svg)](https://search.maven.org/search?q=g:io.github.eyuael%20AND%20a:gibbon-core_2.13)
+
 Gibbon is a lightweight Scala library for building production-ready, backpressure-aware, stateful, event-time-correct streaming pipelines that can run locally for development or across a cluster. Built on top of **both Akka Streams and Pekko**, Gibbon provides higher-level abstractions that make stream processing more accessible and maintainable.
 
 ## 🎯 **Runtime Flexibility**
@@ -50,7 +52,7 @@ Simply change the implicit runtime to switch between streaming engines - **your 
 
 ##  Installation
 
-Gibbon is organized into multiple modules to support both Akka Streams and Pekko. Choose the modules that match your streaming runtime:
+Gibbon is available on Maven Central and organized into multiple modules to support both Akka Streams and Pekko. Choose the modules that match your streaming runtime:
 
 ### For Akka Streams
 
@@ -58,8 +60,8 @@ Add these dependencies to your `build.sbt`:
 
 ```scala
 libraryDependencies ++= Seq(
-  "com.example" %% "gibbon-core" % "0.1.0-SNAPSHOT",
-  "com.example" %% "gibbon-akka" % "0.1.0-SNAPSHOT"
+  "io.github.eyuael" %% "gibbon-core" % "0.1.0",
+  "io.github.eyuael" %% "gibbon-akka" % "0.1.0"
 )
 ```
 
@@ -69,8 +71,8 @@ Add these dependencies to your `build.sbt`:
 
 ```scala
 libraryDependencies ++= Seq(
-  "com.example" %% "gibbon-core" % "0.1.0-SNAPSHOT",
-  "com.example" %% "gibbon-pekko" % "0.1.0-SNAPSHOT"
+  "io.github.eyuael" %% "gibbon-core" % "0.1.0",
+  "io.github.eyuael" %% "gibbon-pekko" % "0.1.0"
 )
 ```
 
@@ -80,10 +82,39 @@ If you want the flexibility to choose at runtime:
 
 ```scala
 libraryDependencies ++= Seq(
-  "com.example" %% "gibbon-core" % "0.1.0-SNAPSHOT",
-  "com.example" %% "gibbon-akka" % "0.1.0-SNAPSHOT",
-  "com.example" %% "gibbon-pekko" % "0.1.0-SNAPSHOT"
+  "io.github.eyuael" %% "gibbon-core" % "0.1.0",
+  "io.github.eyuael" %% "gibbon-akka" % "0.1.0",
+  "io.github.eyuael" %% "gibbon-pekko" % "0.1.0"
 )
+```
+
+### Maven
+
+For Maven projects, add these dependencies to your `pom.xml`:
+
+```xml
+<dependencies>
+  <!-- Core module -->
+  <dependency>
+    <groupId>io.github.eyuael</groupId>
+    <artifactId>gibbon-core_2.13</artifactId>
+    <version>0.1.0</version>
+  </dependency>
+  
+  <!-- For Akka Streams -->
+  <dependency>
+    <groupId>io.github.eyuael</groupId>
+    <artifactId>gibbon-akka_2.13</artifactId>
+    <version>0.1.0</version>
+  </dependency>
+  
+  <!-- For Pekko -->
+  <dependency>
+    <groupId>io.github.eyuael</groupId>
+    <artifactId>gibbon-pekko_2.13</artifactId>
+    <version>0.1.0</version>
+  </dependency>
+</dependencies>
 ```
 
 ### Additional Dependencies
@@ -254,7 +285,7 @@ Check out the examples in the codebase:
 
 ## 📊 Current Status
 
-**Version**: 0.1.0-SNAPSHOT (Active Development)
+**Version**: 0.1.0 (Published on Maven Central)
 
 ### ✅ Implemented Features
 - **Runtime Abstraction**: Choose between Akka Streams and Pekko without code changes
@@ -266,6 +297,7 @@ Check out the examples in the codebase:
 - Event store with Redis backend
 - Basic monitoring and metrics
 - Comprehensive test suite
+- **Published to Maven Central** - Ready for production use!
 
 ### 🚧 In Development
 - Advanced windowing operations
