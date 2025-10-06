@@ -43,6 +43,15 @@ class TestStreamingRuntime(implicit ec: ExecutionContext) extends StreamingRunti
   def dropWhileFlow[T](predicate: T => Boolean): TestFlow[T, T, TestNotUsed.type] = 
     TestFlow.dropWhile(predicate)
 
+  def groupedFlow[T](batchSize: Int): TestFlow[T, List[T], TestNotUsed.type] = 
+    TestFlow.grouped(batchSize)
+
+  def groupedWithinFlow[T](batchSize: Int, timeout: FiniteDuration): TestFlow[T, List[T], TestNotUsed.type] = 
+    TestFlow.groupedWithin(batchSize, timeout)
+
+  def batchFlow[T, S](seed: T => S)(aggregate: (S, T) => S): TestFlow[T, S, TestNotUsed.type] = 
+    TestFlow.batch(seed)(aggregate)
+
   def foreachSink[T](f: T => Unit): TestSink[T, Future[Unit]] = 
     TestSink.foreach(f)
 
@@ -142,6 +151,22 @@ object TestFlow {
     
   def dropWhile[T](predicate: T => Boolean): TestFlow[T, T, TestNotUsed.type] = 
     TestFlow(_.dropWhile(predicate), TestNotUsed)
+    
+  def grouped[T](batchSize: Int): TestFlow[T, List[T], TestNotUsed.type] = 
+    TestFlow(_.grouped(batchSize).toList, TestNotUsed)
+    
+  def groupedWithin[T](batchSize: Int, timeout: FiniteDuration): TestFlow[T, List[T], TestNotUsed.type] = 
+    TestFlow(_.grouped(batchSize).toList, TestNotUsed) // Simplified - ignores timeout in test
+    
+  def batch[T, S](seed: T => S)(aggregate: (S, T) => S): TestFlow[T, S, TestNotUsed.type] = 
+    TestFlow({ elements =>
+      elements.headOption match {
+        case Some(first) => 
+          val initial = seed(first)
+          List(elements.tail.foldLeft(initial)(aggregate))
+        case None => List.empty[S]
+      }
+    }, TestNotUsed)
 }
 
 case class TestSink[-In, +Mat](run: List[In] => Mat)

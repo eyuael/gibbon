@@ -40,6 +40,16 @@ class AkkaStreamingRuntime extends StreamingRuntime {
   def dropWhileFlow[T](predicate: T => Boolean): Flow[T, T, NotUsed] = 
     AkkaFlow[T].dropWhile(predicate)
 
+  // Batching support methods
+  def groupedFlow[T](batchSize: Int): Flow[T, List[T], NotUsed] = 
+    AkkaFlow[T].grouped(batchSize).map(_.toList)
+    
+  def groupedWithinFlow[T](batchSize: Int, timeout: FiniteDuration): Flow[T, List[T], NotUsed] = 
+    AkkaFlow[T].groupedWithin(batchSize, timeout).map(_.toList)
+    
+  def batchFlow[T, S](seed: T => S)(aggregate: (S, T) => S): Flow[T, S, NotUsed] = 
+    AkkaFlow[T].batch(1, seed)(aggregate)
+
   def foreachSink[T](f: T => Unit): Sink[T, Future[Unit]] = {
     implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
     AkkaSink.foreach(f).mapMaterializedValue(_.map(_ => ()))

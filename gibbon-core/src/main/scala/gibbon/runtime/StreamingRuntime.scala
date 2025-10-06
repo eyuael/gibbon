@@ -24,6 +24,11 @@ trait StreamingRuntime {
   def foreachSink[T](f: T => Unit): Sink[T, Future[Unit]]
   def seqSink[T]: Sink[T, Future[Seq[T]]]
 
+  // Batching support methods
+  def groupedFlow[T](batchSize: Int): Flow[T, List[T], NotUsed]
+  def groupedWithinFlow[T](batchSize: Int, timeout: FiniteDuration): Flow[T, List[T], NotUsed]
+  def batchFlow[T, S](seed: T => S)(aggregate: (S, T) => S): Flow[T, S, NotUsed]
+
   def runGraph[Mat](source: Source[Any, Any], sink: Sink[Any, Mat])(implicit system: ActorSystem): Mat
   
   // Helper method to create a RunnableGraph from source and sink

@@ -13484,3 +13484,1419 @@ INFO: Unsupported notification method: $/setTrace
 2025.10.04 18:11:52 INFO  no build target found for /Users/eyuaelberhe/gibbon/sonatype.sbt. Using presentation compiler with project's scala-library version: 2.13.16
 2025.10.04 18:11:53 INFO  no build target found for /Users/eyuaelberhe/gibbon/sonatype.sbt. Using presentation compiler with project's scala-library version: 2.13.16
 2025.10.04 18:11:53 INFO  no build target found for /Users/eyuaelberhe/gibbon/sonatype.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+Oct 04, 2025 6:16:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 6:21:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 6:26:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 6:31:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 6:36:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 6:41:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 6:46:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 6:51:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 6:56:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:01:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:06:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:11:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:16:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:21:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:26:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:31:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:36:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:41:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:46:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:51:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 7:56:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:01:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:06:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:11:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:16:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:21:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:26:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:31:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:36:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:41:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:46:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:51:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 8:56:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:01:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:06:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:11:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:16:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:21:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:26:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:31:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:36:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:41:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:46:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:51:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 9:56:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:01:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:06:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:11:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:16:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:21:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:26:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:31:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:36:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:41:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:46:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:51:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 10:56:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:01:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:06:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:11:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:16:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:21:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:26:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:31:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:36:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:41:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:46:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:51:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 04, 2025 11:56:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:01:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:06:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:11:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:16:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:26:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:31:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:36:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:41:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:46:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:51:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:56:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:01:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:06:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:11:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:16:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:26:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:31:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:36:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:41:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:46:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:51:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:56:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:01:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:06:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:11:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:16:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:26:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:31:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:36:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:41:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:46:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:56:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:01:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:06:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:11:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:16:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:26:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:31:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:36:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:41:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:46:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:56:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:01:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:06:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:11:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:16:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:26:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:31:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:36:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:41:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:46:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:56:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:01:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:06:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:11:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:16:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:26:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:31:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:36:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:41:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:46:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:56:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:01:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:06:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:11:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:16:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:26:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:31:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:36:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:41:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:46:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:56:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:01:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:06:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:11:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:16:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:26:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:31:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:36:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:41:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:46:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:56:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:01:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:06:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:11:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:16:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:26:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:31:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:36:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:41:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:46:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:56:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:01:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:06:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:11:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:16:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:26:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:31:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:36:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:41:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:46:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:56:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:01:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:06:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:11:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:16:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:26:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:31:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:36:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:41:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:46:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:56:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:01:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:06:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:11:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:16:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:21:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:26:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:31:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:36:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:41:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:46:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:56:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:01:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:06:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:16:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:21:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:26:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:31:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:36:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:41:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:46:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:51:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 12:56:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:06:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:11:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:16:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:21:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:26:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:31:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:36:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:41:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:46:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:51:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 1:56:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:06:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:16:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:21:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:26:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:31:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:36:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:41:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:46:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:51:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 2:56:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:06:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:16:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:21:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:26:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:31:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:36:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:41:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:46:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:51:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 3:56:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:06:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:16:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:21:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:26:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:31:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:36:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:41:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:46:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:51:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 4:56:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:06:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:16:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:21:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:26:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:31:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:36:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:41:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:46:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:51:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 5:56:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:06:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.05 18:07:07 INFO  compiling core (1 scala source)
+2025.10.05 18:07:07 INFO  time: compiled core in 0.42s
+Oct 05, 2025 6:07:23 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.05 18:07:23 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala]
+2025.10.05 18:07:23 INFO  java.lang.AssertionError: assertion failed: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala: 273 >= 273 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_compiler-error_(core)_18-07-23-923.md")
+2025.10.05 18:07:24 INFO  compiling core (1 scala source)
+2025.10.05 18:07:24 INFO  time: compiled core in 0.25s
+Oct 05, 2025 6:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.05 18:14:42 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala]
+2025.10.05 18:14:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:14:50 INFO  compiling core (1 scala source)
+2025.10.05 18:14:50 INFO  time: compiled core in 96ms
+2025.10.05 18:15:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:15:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:15:05 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:15:05 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:15:05 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:15:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:15:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:15:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:15:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:15:09 INFO  compiling core (1 scala source)
+2025.10.05 18:15:09 INFO  time: compiled core in 77ms
+2025.10.05 18:15:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:15:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+Oct 05, 2025 6:16:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.05 18:17:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:30 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:17:37 INFO  compiling core (1 scala source)
+2025.10.05 18:17:37 INFO  time: compiled core in 92ms
+2025.10.05 18:17:58 INFO  compiling core (1 scala source)
+2025.10.05 18:17:58 INFO  time: compiled core in 79ms
+2025.10.05 18:18:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:08 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:15 INFO  compiling core (1 scala source)
+2025.10.05 18:18:15 INFO  time: compiled core in 68ms
+2025.10.05 18:18:33 INFO  compiling core (1 scala source)
+2025.10.05 18:18:33 INFO  time: compiled core in 68ms
+2025.10.05 18:18:36 WARN  Could not find 'millis' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.10.05 18:18:36 WARN  Could not find 'millis' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.10.05 18:18:36 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:18:36 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:34 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:34 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:20:35 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:16 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:20 INFO  compiling core (1 scala source)
+2025.10.05 18:21:20 INFO  time: compiled core in 0.1s
+2025.10.05 18:21:24 WARN  Could not find 'millis' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.10.05 18:21:24 WARN  Could not find 'millis' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.10.05 18:21:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:29 INFO  compiling core (1 scala source)
+2025.10.05 18:21:29 INFO  time: compiled core in 91ms
+2025.10.05 18:21:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+Oct 05, 2025 6:21:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.05 18:21:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:21:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+Oct 05, 2025 6:22:08 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.05 18:22:08 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/handling/monitoring/MetricsCollector.scala]
+2025.10.05 18:22:08 INFO  java.lang.AssertionError: assertion failed: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/handling/monitoring/MetricsCollector.scala: 993 >= 993 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_compiler-error_(core)_18-22-08-923.md")
+Oct 05, 2025 6:22:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.05 18:22:10 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/handling/monitoring/MetricsCollector.scala]
+2025.10.05 18:22:10 INFO  java.lang.AssertionError: assertion failed: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/handling/monitoring/MetricsCollector.scala: 994 >= 994 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_compiler-error_(core)_18-22-10-221.md")
+2025.10.05 18:22:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-22-11-860.md")
+2025.10.05 18:22:11 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/handling/monitoring/MetricsCollector.scala]
+2025.10.05 18:22:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-22-11-860.md")
+2025.10.05 18:22:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-22-11-860.md")
+2025.10.05 18:22:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-22-11-860.md")
+2025.10.05 18:22:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-22-11-860.md")
+2025.10.05 18:22:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-22-11-860.md")
+2025.10.05 18:22:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-22-11-860.md")
+2025.10.05 18:22:19 INFO  compiling core (2 scala sources)
+2025.10.05 18:22:19 INFO  time: compiled core in 0.11s
+2025.10.05 18:22:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:26 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+Oct 05, 2025 6:22:27 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.05 18:22:28 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala]
+2025.10.05 18:22:28 INFO  java.lang.AssertionError: assertion failed: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala: 1008 >= 1008 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_compiler-error_(core)_18-22-28-015.md")
+2025.10.05 18:22:30 INFO  compiling core (2 scala sources)
+2025.10.05 18:22:30 INFO  time: compiled core in 0.11s
+2025.10.05 18:22:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:22:52 INFO  compiling core (2 scala sources)
+2025.10.05 18:22:52 INFO  time: compiled core in 91ms
+2025.10.05 18:22:54 INFO  compiling core (2 scala sources)
+2025.10.05 18:22:54 INFO  time: compiled core in 84ms
+2025.10.05 18:23:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:07 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:10 INFO  compiling core (2 scala sources)
+2025.10.05 18:23:10 INFO  time: compiled core in 88ms
+2025.10.05 18:23:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-23-17-735.md")
+2025.10.05 18:23:17 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala]
+2025.10.05 18:23:17 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-23-17-735.md")
+2025.10.05 18:23:18 INFO  compiling core (2 scala sources)
+2025.10.05 18:23:18 INFO  time: compiled core in 78ms
+2025.10.05 18:23:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.05 18:23:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+Oct 05, 2025 6:26:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:31:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:36:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:41:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:46:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:51:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 6:56:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:06:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:16:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:21:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:26:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:31:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:36:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:41:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:46:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:51:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 7:56:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:01:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:06:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:16:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:21:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:26:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:31:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:36:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:41:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:46:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:51:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 8:56:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:06:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:16:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:21:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:26:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:31:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:36:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:41:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:46:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:51:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 9:56:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:01:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:06:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:16:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:21:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:26:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:31:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:36:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:41:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:46:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:51:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 10:56:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:01:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:06:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:11:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:16:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:21:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:26:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:31:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:36:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:41:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:46:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:51:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 05, 2025 11:56:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:01:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:06:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:11:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:16:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:21:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:26:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:31:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:36:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:41:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:46:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:51:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:56:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:01:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:06:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:11:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:16:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:21:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:26:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:31:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:36:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:41:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:46:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:51:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 1:56:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:01:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:06:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:11:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:16:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:21:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:26:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:31:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:36:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:41:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:46:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:51:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 2:56:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:01:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:06:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:11:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:16:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:21:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:26:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:31:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:36:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:41:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:46:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:51:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 3:56:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:01:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:06:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:11:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:16:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:21:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:26:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:31:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:36:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:41:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:46:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:51:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 4:56:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:01:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:06:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:11:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:16:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:21:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:26:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:31:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:36:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:41:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:46:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:51:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 5:56:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:01:47 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:06:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:11:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:16:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:21:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:26:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:31:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:36:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:41:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:46:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 6:51:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.06 08:30:04 INFO  Started: Metals version 1.6.2 in folders '/Users/eyuaelberhe/gibbon' for client Trae 1.100.3.
+2025.10.06 08:30:08 INFO  no build target found for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.06 08:30:08 INFO  no build target found for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.06 08:30:08 INFO  Attempting to connect to the build server...
+2025.10.06 08:30:08 INFO  No running Bloop server found, starting one.
+2025.10.06 08:30:09 INFO  Starting compilation server
+2025.10.06 08:30:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/eyuaelberhe/gibbon/.metals/bsp.trace.json or /Users/eyuaelberhe/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.10.06 08:30:10 INFO  time: Connected to build server in 2.02s
+2025.10.06 08:30:10 INFO  Connected to Build server: Bloop v2.0.13
+2025.10.06 08:30:10 INFO  time: Imported build in 0.14s
+2025.10.06 08:30:21 INFO  time: indexed workspace in 10s
+2025.10.06 08:30:21 INFO  compiling core (2 scala sources)
+2025.10.06 08:30:21 INFO  time: compiled core in 0.18s
+2025.10.06 08:30:22 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 08:30:22 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 08:30:22 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+Oct 06, 2025 8:34:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 8:39:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 8:44:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.06 08:49:23 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 08:49:23 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 08:49:32 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+Oct 06, 2025 8:49:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 8:54:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 8:59:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:04:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:09:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:14:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:19:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:24:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.06 09:29:39 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+Oct 06, 2025 9:29:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:34:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:39:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:44:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:49:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:54:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 9:59:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:04:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:09:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:14:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.06 10:15:22 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+Oct 06, 2025 10:19:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:24:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:29:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:34:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:39:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:44:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:49:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:54:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 10:59:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 11:04:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.06 11:06:44 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:44 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:44 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:44 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:44 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:44 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:44 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala]
+2025.10.06 11:06:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-06/r_empty-definition_(core)_11-06-44-676.md")
+2025.10.06 11:06:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:45 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:44 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:47 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:55 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:55 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:55 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:55 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:58 INFO  compiling core (2 scala sources)
+2025.10.06 11:06:58 INFO  time: compiled core in 0.28s
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:00 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:06:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:06:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:00 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:00 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:01 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:02 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:04 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:04 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:04 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:04 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:04 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:04 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:05 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:06 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:06 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:06 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:06 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:06 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:07 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:07 INFO  compiling core (2 scala sources)
+2025.10.06 11:07:07 INFO  time: compiled core in 0.18s
+2025.10.06 11:07:07 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:12 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:11 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:12 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:13 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:13 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:13 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:13 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:13 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:14 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:14 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:14 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/handling/monitoring/MetricsCollector.scala
+2025.10.06 11:07:14 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/handling/monitoring/MetricsCollector.scala
+2025.10.06 11:07:14 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:14 INFO  compiling core (2 scala sources)
+2025.10.06 11:07:14 INFO  time: compiled core in 0.12s
+2025.10.06 11:07:15 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:20 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:20 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:20 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/handling/monitoring/MetricsCollector.scala
+2025.10.06 11:07:20 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/handling/monitoring/MetricsCollector.scala
+2025.10.06 11:07:22 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:22 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:22 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:22 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:23 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:22 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:23 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:23 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:24 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:24 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:24 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:24 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:24 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-05/r_empty-definition_(core)_18-14-42-351.md")
+2025.10.06 11:07:24 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:25 INFO  compiling core (2 scala sources)
+2025.10.06 11:07:25 INFO  time: compiled core in 0.11s
+2025.10.06 11:07:25 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:27 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:27 INFO  compiling core (2 scala sources)
+2025.10.06 11:07:27 INFO  time: compiled core in 90ms
+2025.10.06 11:07:27 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:35 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:35 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:07:43 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:09:19 INFO  compiling core (3 scala sources)
+2025.10.06 11:09:19 INFO  time: compiled core in 0.2s
+2025.10.06 11:09:19 INFO  compiling core (3 scala sources)
+2025.10.06 11:09:19 INFO  time: compiled core in 0.12s
+2025.10.06 11:09:19 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/AdaptiveBatchFlow.scala
+2025.10.06 11:09:38 INFO  compiling core (4 scala sources)
+2025.10.06 11:09:38 INFO  time: compiled core in 0.13s
+Oct 06, 2025 11:09:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.06 11:10:07 INFO  compiling core (5 scala sources)
+2025.10.06 11:10:07 INFO  time: compiled core in 0.18s
+2025.10.06 11:10:07 INFO  compiling core (5 scala sources)
+2025.10.06 11:10:07 INFO  time: compiled core in 0.1s
+2025.10.06 11:10:47 INFO  compiling core (5 scala sources)
+2025.10.06 11:10:48 INFO  time: compiled core in 1.03s
+2025.10.06 11:11:17 INFO  compiling akka (1 scala source)
+2025.10.06 11:11:17 INFO  time: compiled akka in 0.45s
+2025.10.06 11:11:39 INFO  compiling pekko (1 scala source)
+2025.10.06 11:11:39 INFO  time: compiled pekko in 0.39s
+2025.10.06 11:12:19 INFO  compiling core-test (2 scala sources)
+2025.10.06 11:12:19 INFO  time: compiled core-test in 0.2s
+2025.10.06 11:12:19 INFO  compiling core-test (2 scala sources)
+2025.10.06 11:12:19 INFO  time: compiled core-test in 0.11s
+2025.10.06 11:13:02 INFO  compiling core-test (2 scala sources)
+2025.10.06 11:13:02 INFO  time: compiled core-test in 0.7s
+2025.10.06 11:13:22 INFO  compiling core-test (3 scala sources)
+2025.10.06 11:13:22 INFO  time: compiled core-test in 0.2s
+2025.10.06 11:13:22 INFO  compiling core-test (3 scala sources)
+2025.10.06 11:13:22 INFO  time: compiled core-test in 0.1s
+2025.10.06 11:14:01 INFO  compiling core-test (3 scala sources)
+2025.10.06 11:14:01 INFO  time: compiled core-test in 0.54s
+2025.10.06 11:14:29 INFO  compiling core-test (4 scala sources)
+2025.10.06 11:14:29 INFO  time: compiled core-test in 0.18s
+2025.10.06 11:14:29 INFO  compiling core-test (4 scala sources)
+2025.10.06 11:14:29 INFO  time: compiled core-test in 0.1s
+Oct 06, 2025 11:14:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.06 11:15:24 INFO  compiling core-test (4 scala sources)
+2025.10.06 11:15:24 INFO  time: compiled core-test in 0.65s
+Oct 06, 2025 11:16:53 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 11:19:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 11:24:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 11:29:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.06 11:31:00 INFO  compiling core-test (4 scala sources)
+2025.10.06 11:31:00 INFO  time: compiled core-test in 0.41s
+2025.10.06 11:31:11 INFO  compiling core-test (4 scala sources)
+2025.10.06 11:31:12 INFO  time: compiled core-test in 1.17s
+Oct 06, 2025 11:34:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.06 11:38:40 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/flows/AdaptiveBatchFlowSpec.scala]
+2025.10.06 11:38:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-06/r_empty-definition_(core-test)_11-38-40-170.md")
+Oct 06, 2025 11:39:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 11:44:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 11:49:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 11:54:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 11:59:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:04:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:09:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:14:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:19:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:24:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:29:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 06, 2025 12:31:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
