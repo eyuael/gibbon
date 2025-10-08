@@ -32,4 +32,7 @@ object Dependencies {
   lazy val pekkoStreams = "org.apache.pekko" %% "pekko-stream" % pekkoVersion
   lazy val pekkoHttp = "org.apache.pekko" %% "pekko-http" % "1.0.0"
   lazy val pekkoHttpSpray = "org.apache.pekko" %% "pekko-http-spray-json" % "1.0.0"
+
+  // Database
+  lazy val postgresql = "org.postgresql" % "postgresql" % "42.7.2"
 }

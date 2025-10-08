@@ -21,3 +21,13 @@ final case class SinkError(
     override val message: String,
     override val cause: Option[Throwable] = None
 ) extends StreamError(message, cause)
+
+final case class CircuitBreakerError(
+    override val message: String,
+    override val cause: Option[Throwable] = None
+) extends StreamError(message, cause)
+
+final case class CircuitBreakerOpenError(
+    override val message: String,
+    override val cause: Option[Throwable] = None
+) extends StreamError(message, cause)

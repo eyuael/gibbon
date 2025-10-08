@@ -47,6 +47,9 @@ lazy val core = (project in file("gibbon-core"))
       logback,
       scalaLogging,
       
+      // Database
+      postgresql,
+      
       // Testing
       munit % Test
     )
