@@ -1,33 +1,14 @@
 package gibbon.error
 
-abstract class StreamError(
-  val message: String,
-  val cause: Option[Throwable] = None
-) extends Exception(message, cause.orNull) {
-  override def getMessage: String = message
+// 1. Use a sealed trait for exhaustivity checking
+sealed trait StreamError {
+  def message: String
+  def cause: Option[Throwable]
 }
 
-final case class SourceError(
-    override val message: String,
-    override val cause: Option[Throwable] = None
-) extends StreamError(message, cause)
-
-final case class ProcessingError(
-    override val message: String,
-    override val cause: Option[Throwable] = None
-) extends StreamError(message, cause)
-
-final case class SinkError(
-    override val message: String,
-    override val cause: Option[Throwable] = None
-) extends StreamError(message, cause)
-
-final case class CircuitBreakerError(
-    override val message: String,
-    override val cause: Option[Throwable] = None
-) extends StreamError(message, cause)
-
-final case class CircuitBreakerOpenError(
-    override val message: String,
-    override val cause: Option[Throwable] = None
-) extends StreamError(message, cause)
+// 2. The case classes are now simpler. No need for 'override'.
+final case class SourceError(message: String, cause: Option[Throwable] = None) extends StreamError
+final case class ProcessingError(message: String, cause: Option[Throwable] = None) extends StreamError
+final case class SinkError(message: String, cause: Option[Throwable] = None) extends StreamError
+final case class CircuitBreakerError(message: String, cause: Option[Throwable] = None) extends StreamError
+final case class CircuitBreakerOpenError(message: String, cause: Option[Throwable] = None) extends StreamError

@@ -18879,3 +18879,110 @@ INFO: compiler crashed due to an error in the Scala compiler, retrying with new 
 2025.10.09 13:11:40 INFO  time: compiled core in 0.75s
 2025.10.09 13:11:48 INFO  compiling core (1 scala source)
 2025.10.09 13:11:48 INFO  time: compiled core in 0.55s
+Oct 09, 2025 1:14:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 1:19:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 1:24:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 1:29:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 1:34:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 1:39:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 1:44:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 1:49:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 1:54:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 1:59:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:04:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:09:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:14:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:19:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:24:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:29:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:34:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:39:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:44:59 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:49:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 09, 2025 2:54:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.09 14:58:19 INFO  compiling core (1 scala source)
+2025.10.09 14:58:19 INFO  time: compiled core in 0.63s
+Oct 09, 2025 2:58:43 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.09 14:58:43 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/error/ErrorHandler.scala]
+2025.10.09 14:58:43 INFO  java.lang.AssertionError: assertion failed: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/error/ErrorHandler.scala: 345 >= 345 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_compiler-error_(core)_14-58-43-859.md")
+Oct 09, 2025 2:59:33 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.09 14:59:33 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/error/StreamError.scala]
+2025.10.09 14:59:33 INFO  java.lang.AssertionError: assertion failed: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/error/StreamError.scala: 22 >= 22 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_compiler-error_(core)_14-59-33-789.md")
+Oct 09, 2025 2:59:47 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.09 14:59:47 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/error/StreamError.scala]
+2025.10.09 14:59:47 INFO  java.lang.AssertionError: assertion failed: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/error/StreamError.scala: 1 >= 1 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_compiler-error_(core)_14-59-47-536.md")
+2025.10.09 14:59:58 INFO  compiling core (1 scala source)
+Oct 09, 2025 2:59:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.09 14:59:58 INFO  time: compiled core in 0.56s
+2025.10.09 14:59:58 INFO  compiling core (3 scala sources)
+2025.10.09 14:59:58 INFO  time: compiled core in 60ms
+2025.10.09 15:00:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:18 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/strategy/ResilientFlow.scala]
+2025.10.09 15:00:18 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:20 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:20 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:42 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:43 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:44 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/strategy/ResilientFlow.scala]
+2025.10.09 15:00:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:45 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:48 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:49 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-18-919.md")
+2025.10.09 15:00:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-09/r_empty-definition_(core)_15-00-44-966.md")
+2025.10.09 15:00:53 INFO  compiling core (2 scala sources)
+2025.10.09 15:00:53 INFO  time: compiled core in 0.48s
+2025.10.09 15:00:53 INFO  compiling core (3 scala sources)
+2025.10.09 15:00:53 INFO  time: compiled core in 0.17s

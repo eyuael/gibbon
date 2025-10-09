@@ -19,7 +19,7 @@ object ResilientFlow {
             Some(ex)
           )
           errorHandler.onError(error)
-          throw error
+          throw ex
       }
     }
   }
