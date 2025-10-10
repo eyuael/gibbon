@@ -3,121 +3,88 @@ package gibbon.flows
 import gibbon.core.Flow
 import gibbon.runtime.StreamingRuntime
 import gibbon.circuitbreaker.{CircuitBreaker, CircuitBreakerConfig}
-import gibbon.error.{CircuitBreakerOpenError, ProcessingError}
 import scala.concurrent.{Future, ExecutionContext}
 import scala.util.{Success, Failure}
+import scala.concurrent.duration._
 
 /**
- * CircuitBreakerFlow - wraps a flow with circuit breaker protection for downstream systems
+ * CircuitBreakerFlow implemented as a proper flow stage
  * 
- * Example usage:
- * ```scala
- * val protectedFlow = CircuitBreakerFlow[Event[String, String], Event[String, String]](
- *   "database-sink-protector",
- *   CircuitBreakerConfig(
- *     failureThreshold = 5,
- *     successThreshold = 3,
- *     timeout = 30.seconds
- *   )
- * )
- * 
- * // Use in pipeline
- * val pipeline = source.via(protectedFlow).via(transformFlow).to(sink)
- * ```
+ * This creates a transformation stage that can be inserted anywhere in a flow
+ * without wrapping the entire flow structure.
  */
-class CircuitBreakerFlow[I, O](
-  circuitBreakerName: String,
-  config: CircuitBreakerConfig = CircuitBreakerConfig(),
-  fallback: Option[I => O] = None,
-  shouldFailOnOpen: Boolean = true
+class CircuitBreakerFlow[I, O] private (
+  private val circuitBreaker: CircuitBreaker,
+  private val transform: I => O,
+  private val fallback: Option[I => O] = None,
+  private val shouldFailOnOpen: Boolean = true
 )(implicit ec: ExecutionContext) extends Flow[I, O] {
 
-  private val circuitBreaker = new CircuitBreaker(circuitBreakerName, config)
-
   override def toRuntimeFlow[R <: StreamingRuntime]()(implicit runtime: R): runtime.Flow[I, O, runtime.NotUsed] = {
-    runtime.mapFlow[I, O] { element =>
-      // For synchronous operations, we need to handle the circuit breaker logic
-      // In a real implementation, this would be async, but for simplicity we'll use Future
-      val resultFuture = circuitBreaker.excecute {
+    import runtime.materializer
+    
+    // Use mapAsync for proper async handling without blocking
+    runtime.flow[I].mapAsync(parallelism = 1) { element =>
+      circuitBreaker.execute {
         Future {
-          // This is a placeholder - the actual transformation would be applied here
-          // In practice, you'd wrap an actual flow operation
-          element.asInstanceOf[O]
+          transform(element)
         }
-      }
-
-      // Block and wait for result (not ideal for production, but works for this example)
-      import scala.concurrent.duration._
-      try {
-        import scala.concurrent.Await
-        Await.result(resultFuture, 5.seconds)
-      } catch {
-        case ex: RuntimeException if ex.getMessage.contains("Circuit breaker") =>
-          if (shouldFailOnOpen) {
-            throw CircuitBreakerOpenError(s"Circuit breaker '$circuitBreakerName' is OPEN", Option(ex))
-          } else {
-\            fallback.map(f => f(element)).getOrElse(element.asInstanceOf[O])
-          }
-        case ex: Throwable =>
-          throw ProcessingError(s"Circuit breaker flow processing failed", Some(ex))
+      }.recover {
+        case ex if ex.getMessage.contains("Circuit breaker") && !shouldFailOnOpen =>
+          // Apply fallback or pass through
+          fallback.map(f => f(element)).getOrElse(element.asInstanceOf[O])
       }
     }
   }
 
-  def getCircuitBreaker: CircuitBreaker = circuitBreaker
-  def getState = circuitBreaker.getState
+  // Builder methods for configuration
+  def withFallback(fallbackFn: I => O): CircuitBreakerFlow[I, O] = {
+    new CircuitBreakerFlow[I, O](circuitBreaker, transform, Some(fallbackFn), shouldFailOnOpen)
+  }
+
+  def failOnOpen(shouldFail: Boolean): CircuitBreakerFlow[I, O] = {
+    new CircuitBreakerFlow[I, O](circuitBreaker, transform, fallback, shouldFail)
+  }
+
   def getMetrics = circuitBreaker.getMetrics
+  def getState = circuitBreaker.getState
 }
 
 /**
- * CircuitBreakerFlow companion object with factory methods
+ * Companion object with factory methods
  */
 object CircuitBreakerFlow {
 
   /**
-   * Create a simple circuit breaker flow with basic configuration
+   * Create a circuit breaker flow stage with a transformation function
    */
   def apply[I, O](
     name: String,
+    transform: I => O,
     config: CircuitBreakerConfig = CircuitBreakerConfig()
   )(implicit ec: ExecutionContext): CircuitBreakerFlow[I, O] = {
-    new CircuitBreakerFlow[I, O](name, config)
+    val circuitBreaker = new CircuitBreaker(name, config)
+    new CircuitBreakerFlow[I, O](circuitBreaker, transform)
   }
 
   /**
-   * Create a circuit breaker flow with fallback function
+   * Create a circuit breaker that protects an existing transformation
    */
-  def withFallback[I, O](
+  def protect[I, O](
     name: String,
-    fallback: I => O,
+    protectedTransform: I => O,
     config: CircuitBreakerConfig = CircuitBreakerConfig()
   )(implicit ec: ExecutionContext): CircuitBreakerFlow[I, O] = {
-    new CircuitBreakerFlow[I, O](name, config, Some(fallback), shouldFailOnOpen = false)
+    apply(name, protectedTransform, config)
   }
 
   /**
-   * Create a circuit breaker flow that passes through on open circuit (no failure)
+   * Create a pass-through circuit breaker (no transformation, just protection)
    */
-  def passThroughOnOpen[I, O](
+  def passThrough[I](
     name: String,
     config: CircuitBreakerConfig = CircuitBreakerConfig()
-  )(implicit ec: ExecutionContext): CircuitBreakerFlow[I, O] = {
-    new CircuitBreakerFlow[I, O](name, config, None, shouldFailOnOpen = false)
-  }
-
-  /**
-   * Wrap an existing flow with circuit breaker protection
-   * This is a more advanced usage pattern
-   */
-  def wrapFlow[I, O](
-    name: String,
-    wrappedFlow: Flow[I, O],
-    config: CircuitBreakerConfig = CircuitBreakerConfig()
-  )(implicit ec: ExecutionContext): Flow[I, O] = {
-    // This would require more complex implementation to properly wrap existing flows
-    // For now, this is a placeholder that creates a new CircuitBreakerFlow
-    new CircuitBreakerFlow[I, O](name, config)
+  )(implicit ec: ExecutionContext): CircuitBreakerFlow[I, I] = {
+    apply(name, identity[I], config)
   }
 }
-  
-
