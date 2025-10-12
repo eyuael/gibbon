@@ -33,5 +33,7 @@ trait StreamingRuntime {
   
   // Helper method to create a RunnableGraph from source and sink
   def createRunnableGraph[Mat](source: Source[Any, Any], sink: Sink[Any, Mat]): RunnableGraph[Mat]
+
+  def mapAsyncFlow[In, Out](parallelism: Int)(f: In => Future[Out]): Flow[In, Out, NotUsed]
 }
 

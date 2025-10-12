@@ -44,7 +44,7 @@ class CircuitBreaker(
   def isOpen: Boolean = getState == Open
   def isHalfOpen: Boolean = getState == HalfOpen
 
-  def excecute[T](operation: => Future[T]): Future[T] = {
+  def execute[T](operation: => Future[T]): Future[T] = {
     state.get() match {
       case Open => 
         if (shouldAttemptReset){
@@ -132,13 +132,13 @@ class CircuitBreaker(
     metrics.set(CircuitBreakerMetrics())
   }
   // Add to CircuitBreaker class
-def executeAsync[T](operation: => Future[T])(implicit ec: ExecutionContext): Future[T] = {
-  execute(operation).flatMap(identity)
-}
+  def executeAsync[T](operation: => Future[T])(implicit ec: ExecutionContext): Future[T] = {
+    execute(operation)
+  }
 
 // Add better error handling for flow stages
 def executeFlowStage[T](operation: => T): T = {
-  if (state == state.Open) {
+  if (state.get() == Open) {
     throw new RuntimeException(s"Circuit breaker '$name' is OPEN")
   }
   
@@ -148,7 +148,7 @@ def executeFlowStage[T](operation: => T): T = {
     result
   } catch {
     case ex: Exception =>
-      onFailure(ex)
+      onFailure()
       throw ex
   }
 }

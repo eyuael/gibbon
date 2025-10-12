@@ -19,23 +19,24 @@ class CircuitBreakerFlow[I, O] private (
   private val fallback: Option[I => O] = None,
   private val shouldFailOnOpen: Boolean = true
 )(implicit ec: ExecutionContext) extends Flow[I, O] {
-
-  override def toRuntimeFlow[R <: StreamingRuntime]()(implicit runtime: R): runtime.Flow[I, O, runtime.NotUsed] = {
-    import runtime.materializer
     
-    // Use mapAsync for proper async handling without blocking
-    runtime.flow[I].mapAsync(parallelism = 1) { element =>
+  class CircuitBreakerFlow[I, O] extends Flow[I, O] {
+
+  override def toRuntimeFlow[R <: StreamingRuntime]()
+                     (implicit runtime: R): runtime.Flow[I, O, runtime.NotUsed] = {
+
+    val parallelism = 1
+
+    runtime.mapAsyncFlow[I, O](parallelism) { element =>
       circuitBreaker.execute {
-        Future {
-          transform(element)
-        }
+        Future { transform(element: I) }
       }.recover {
         case ex if ex.getMessage.contains("Circuit breaker") && !shouldFailOnOpen =>
-          // Apply fallback or pass through
-          fallback.map(f => f(element)).getOrElse(element.asInstanceOf[O])
+          fallback.map(f => f(element: I)).getOrElse(element.asInstanceOf[O])
       }
     }
   }
+}
 
   // Builder methods for configuration
   def withFallback(fallbackFn: I => O): CircuitBreakerFlow[I, O] = {

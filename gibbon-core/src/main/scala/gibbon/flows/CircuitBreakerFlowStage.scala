@@ -1,7 +1,5 @@
 package gibbon.flows
 
-package gibbon.flows
-
 import gibbon.core.Flow
 import gibbon.runtime.StreamingRuntime
 import gibbon.circuitbreaker.{CircuitBreaker, CircuitBreakerConfig, CircuitBreakerState}
@@ -35,9 +33,8 @@ case class ProtectedTransformStage[I, O](
   private val circuitBreaker = new CircuitBreaker(name, config)
 
   override def toRuntimeFlow[R <: StreamingRuntime]()(implicit runtime: R): runtime.Flow[I, O, runtime.NotUsed] = {
-    import runtime.materializer
     
-    runtime.flow[I].mapAsync(parallelism = 1) { element =>
+    runtime.mapAsyncFlow[I, O](parallelism = 1) { element =>
       circuitBreaker.execute {
         Future { transform(element) }
       }.recover {
@@ -60,9 +57,8 @@ case class MonitorStage[I](
   private val circuitBreaker = new CircuitBreaker(name, config)
 
   override def toRuntimeFlow[R <: StreamingRuntime]()(implicit runtime: R): runtime.Flow[I, I, runtime.NotUsed] = {
-    import runtime.materializer
     
-    runtime.flow[I].mapAsync(parallelism = 1) { element =>
+    runtime.mapAsyncFlow[I, I](parallelism = 1) { element =>
       circuitBreaker.execute {
         Future { element }
       }.recover {

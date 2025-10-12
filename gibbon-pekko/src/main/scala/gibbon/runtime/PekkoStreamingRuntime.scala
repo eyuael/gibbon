@@ -64,4 +64,7 @@ class PekkoStreamingRuntime extends StreamingRuntime {
     
   def createRunnableGraph[Mat](source: Source[Any, Any], sink: Sink[Any, Mat]): RunnableGraph[Mat] = 
     source.to(sink).asInstanceOf[RunnableGraph[Mat]]
+
+  def mapAsyncFlow[In, Out](parallelism: Int)(f: In => Future[Out]): Flow[In, Out, NotUsed] = 
+    org.apache.pekko.stream.scaladsl.Flow[In].mapAsync(parallelism)(f)
 }
