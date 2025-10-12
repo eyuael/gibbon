@@ -19,8 +19,6 @@ class CircuitBreakerFlow[I, O] private (
   private val fallback: Option[I => O] = None,
   private val shouldFailOnOpen: Boolean = true
 )(implicit ec: ExecutionContext) extends Flow[I, O] {
-    
-  class CircuitBreakerFlow[I, O] extends Flow[I, O] {
 
   override def toRuntimeFlow[R <: StreamingRuntime]()
                      (implicit runtime: R): runtime.Flow[I, O, runtime.NotUsed] = {
@@ -36,7 +34,6 @@ class CircuitBreakerFlow[I, O] private (
       }
     }
   }
-}
 
   // Builder methods for configuration
   def withFallback(fallbackFn: I => O): CircuitBreakerFlow[I, O] = {

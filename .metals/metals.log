@@ -24437,3 +24437,59 @@ INFO: compiler crashed due to an error in the Scala compiler, retrying with new 
     38   } (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_compiler-error_(core)_21-30-06-635.md")
 Oct 12, 2025 9:30:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 9:35:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 9:40:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.12 21:41:47 INFO  compiling core (4 scala sources)
+2025.10.12 21:41:47 INFO  time: compiled core in 0.77s
+2025.10.12 21:42:20 INFO  compiling core (4 scala sources)
+2025.10.12 21:42:20 INFO  time: compiled core in 0.57s
+2025.10.12 21:42:41 INFO  compiling core (4 scala sources)
+2025.10.12 21:42:41 INFO  time: compiled core in 0.54s
+Oct 12, 2025 9:45:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 9:50:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 9:55:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.12 21:56:50 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:50 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-50-763.md")
+2025.10.12 21:56:50 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:50 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-50-855.md")
+2025.10.12 21:56:50 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:50 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-50-924.md")
+2025.10.12 21:56:50 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:51 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:50 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-51-067.md")
+2025.10.12 21:56:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-51-068.md")
+2025.10.12 21:56:51 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-51-310.md")
+2025.10.12 21:56:50 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:50 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-51-511.md")
+2025.10.12 21:56:51 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-51-513.md")
+2025.10.12 21:56:51 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:51 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-51-889.md")
+2025.10.12 21:56:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-51-889.md")
+2025.10.12 21:56:51 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-51-943.md")
+2025.10.12 21:56:52 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:52 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-52-978.md")
+2025.10.12 21:56:52 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-52-978.md")
+2025.10.12 21:56:53 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-53-085.md")
+2025.10.12 21:56:57 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:57 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:57 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-57-841.md")
+2025.10.12 21:56:57 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-57-841.md")
+2025.10.12 21:56:57 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:57 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-57-944.md")
+2025.10.12 21:56:58 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/CircuitBreakerFlowStage.scala]
+2025.10.12 21:56:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-12/r_empty-definition_(core)_21-56-58-085.md")
+2025.10.12 21:56:59 INFO  compiling core (4 scala sources)
+2025.10.12 21:56:59 INFO  time: compiled core in 0.95s
+2025.10.12 21:57:15 INFO  compiling core (4 scala sources)
+2025.10.12 21:57:15 INFO  time: compiled core in 0.95s

@@ -30,7 +30,9 @@ case class ProtectedTransformStage[I, O](
   shouldFailOnOpen: Boolean = true
 )(implicit ec: ExecutionContext) extends CircuitBreakerStage[I, O] {
 
-  private val circuitBreaker = new CircuitBreaker(name, config)
+  val circuitBreaker = new CircuitBreaker(name, config)
+
+  override def getName: String = name
 
   override def toRuntimeFlow[R <: StreamingRuntime]()(implicit runtime: R): runtime.Flow[I, O, runtime.NotUsed] = {
     
@@ -54,7 +56,9 @@ case class MonitorStage[I](
   shouldFailOnOpen: Boolean = false
 )(implicit ec: ExecutionContext) extends CircuitBreakerStage[I, I] {
 
-  private val circuitBreaker = new CircuitBreaker(name, config)
+  val circuitBreaker = new CircuitBreaker(name, config)
+
+  override def getName: String = name
 
   override def toRuntimeFlow[R <: StreamingRuntime]()(implicit runtime: R): runtime.Flow[I, I, runtime.NotUsed] = {
     
