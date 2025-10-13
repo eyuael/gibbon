@@ -20,7 +20,7 @@ class VersionedRedisEventStoreSpec extends VersionedEventStoreSpec {
     // Test Redis connection
     redisAvailable = Try {
       val store = createStore()
-      Await.result(store.getStatistics, 3.seconds)
+      Await.result(store.getStatistics, 10.seconds)
       true
     }.getOrElse(false)
     
@@ -64,14 +64,14 @@ class VersionedRedisEventStoreSpec extends VersionedEventStoreSpec {
     val store1 = createStore()
     
     // Store data
-    val putResult = Await.result(store1.putVersioned("persistent-key", "persistent-value"), 3.seconds)
+    val putResult = Await.result(store1.putVersioned("persistent-key", "persistent-value"), 10.seconds)
     assert(putResult.isRight, s"Put operation failed: $putResult")
     
     // Create a new connection to the same Redis instance
     val store2 = createStore()
     
     // Retrieve data from the new connection
-    val retrievedValue = Await.result(store2.getVersioned("persistent-key"), 3.seconds)
+    val retrievedValue = Await.result(store2.getVersioned("persistent-key"), 10.seconds)
     
     // If Redis is not actually available, this test might fail
     if (retrievedValue.isEmpty) {

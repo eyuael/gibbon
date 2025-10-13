@@ -73,8 +73,8 @@ Gibbon is a lightweight Scala library for building production-ready, backpressur
 
 ### 3.2 Backpressure & Flow Control
 - [X] Implement adaptive batching
-- [ ] Add circuit breakers for downstream protection
-- [ ] Create rate limiting flows
+- [X] Add circuit breakers for downstream protection
+- [X] Create rate limiting flows
 - [ ] Implement load shedding strategies
 
 ### 3.3 Event Time Processing

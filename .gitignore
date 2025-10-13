@@ -2,6 +2,7 @@
 target/
 .DS_Store
 .metals/
+.metals/metals.log
 .vscode/
 .scalacache/
 .bloop/

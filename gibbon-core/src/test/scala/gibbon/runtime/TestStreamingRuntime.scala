@@ -52,6 +52,15 @@ class TestStreamingRuntime(implicit ec: ExecutionContext) extends StreamingRunti
   def batchFlow[T, S](seed: T => S)(aggregate: (S, T) => S): TestFlow[T, S, TestNotUsed.type] = 
     TestFlow.batch(seed)(aggregate)
 
+  // Simple synchronous implementation for mapAsyncFlow used in unit tests
+  def mapAsyncFlow[In, Out](parallelism: Int)(f: In => Future[Out]): TestFlow[In, Out, TestNotUsed.type] = {
+    import scala.concurrent.Await
+    import scala.concurrent.duration._
+    TestFlow[In, Out, TestNotUsed.type]({ elems =>
+      elems.map(elem => Await.result(f(elem), 3.seconds))
+    }, TestNotUsed)
+  }
+
   def foreachSink[T](f: T => Unit): TestSink[T, Future[Unit]] = 
     TestSink.foreach(f)
 

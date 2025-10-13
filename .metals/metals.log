@@ -24493,3 +24493,542 @@ INFO: Unsupported notification method: $/setTrace
 2025.10.12 21:56:59 INFO  time: compiled core in 0.95s
 2025.10.12 21:57:15 INFO  compiling core (4 scala sources)
 2025.10.12 21:57:15 INFO  time: compiled core in 0.95s
+Oct 12, 2025 10:00:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:05:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:10:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:15:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:20:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:25:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:30:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:35:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:40:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:45:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:50:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 10:55:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:00:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:05:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:10:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:15:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:20:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:25:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:30:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:35:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:40:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:45:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:50:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2025 11:55:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:00:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:10:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:15:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:20:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:25:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:30:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:35:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:40:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:45:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:50:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:55:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:00:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:05:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:10:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:15:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:20:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:25:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:30:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:35:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:40:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:45:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:50:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:55:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:00:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:10:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:15:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:20:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:25:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:30:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:35:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:40:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:45:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:50:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:55:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:00:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:10:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:15:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:20:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:25:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:30:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:35:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:40:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:45:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:50:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 3:55:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:00:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:10:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:15:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:20:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:25:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:30:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:35:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:40:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:45:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:50:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 4:55:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:00:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:10:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:15:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:20:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:25:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:30:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:35:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:40:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:45:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:50:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 5:55:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:00:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:10:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:15:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:20:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:25:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:30:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:35:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:40:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:45:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:50:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 6:55:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:00:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:10:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:15:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:20:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:25:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:30:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:35:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:40:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:45:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:50:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 7:55:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:00:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:10:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:15:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:20:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:25:03 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:30:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:35:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:40:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:45:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:50:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 8:55:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:00:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:10:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:15:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:20:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:25:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:30:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:35:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:40:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:45:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:50:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 9:55:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:00:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:10:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:15:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:20:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:25:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:30:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:35:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:40:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:45:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:50:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 10:55:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:00:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:05:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:10:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:15:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:20:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:25:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:30:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:35:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:40:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:45:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:50:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 11:55:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:00:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:05:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:10:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:15:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:20:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:25:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:30:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:35:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:40:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:45:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:50:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 12:55:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:00:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:05:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:10:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:15:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:20:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:25:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:30:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:35:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 1:40:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.13 13:44:08 INFO  compiling pekko (1 scala source)
+2025.10.13 13:44:09 INFO  time: compiled pekko in 1.09s
+Oct 13, 2025 1:45:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.13 13:47:16 INFO  compiling core (1 scala source)
+2025.10.13 13:47:16 INFO  time: compiled core in 0.41s
+Oct 13, 2025 1:47:40 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.13 13:47:40 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/ratelimiter/RateLimiter.scala]
+2025.10.13 13:47:40 INFO  java.lang.AssertionError: assertion failed: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/ratelimiter/RateLimiter.scala: 53 >= 53 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-13/r_compiler-error_(core)_13-47-40-494.md")
+2025.10.13 13:47:43 INFO  compiling core (1 scala source)
+2025.10.13 13:47:43 INFO  time: compiled core in 0.5s
+Oct 13, 2025 1:47:54 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.13 13:47:54 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/ratelimiter/RateLimiter.scala]
+2025.10.13 13:47:54 INFO  scala.reflect.internal.FatalError: no context found for source-file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/ratelimiter/RateLimiter.scala,line-2,offset=1 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-13/r_compiler-error_(core)_13-47-54-131.md")
+Oct 13, 2025 1:48:00 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.13 13:48:00 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/ratelimiter/RateLimiter.scala]
+2025.10.13 13:48:00 INFO  scala.reflect.internal.FatalError: no context found for source-file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/ratelimiter/RateLimiter.scala,line-2,offset=3 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-13/r_compiler-error_(core)_13-48-00-853.md")
+2025.10.13 13:48:02 INFO  compiling core (1 scala source)
+2025.10.13 13:48:02 INFO  time: compiled core in 0.43s
+Oct 13, 2025 1:48:03 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.13 13:48:03 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/ratelimiter/RateLimiter.scala]
+2025.10.13 13:48:03 INFO  scala.reflect.internal.FatalError: no context found for source-file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/ratelimiter/RateLimiter.scala,line-8,offset=254 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-13/r_compiler-error_(core)_13-48-03-635.md")
+2025.10.13 13:48:29 INFO  compiling core (1 scala source)
+2025.10.13 13:48:29 INFO  time: compiled core in 0.33s
+Oct 13, 2025 1:48:35 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.10.13 13:48:35 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/RateLimitingFlow.scala]
+2025.10.13 13:48:35 INFO  java.lang.AssertionError: assertion failed: file:///Users/eyuaelberhe/gibbon/gibbon-core/src/main/scala/gibbon/flows/RateLimitingFlow.scala: 52 >= 52 (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-13/r_compiler-error_(core)_13-48-35-135.md")
+2025.10.13 13:48:40 INFO  compiling core (1 scala source)
+2025.10.13 13:48:40 INFO  time: compiled core in 0.38s
+2025.10.13 13:49:28 INFO  no build target found for /Users/eyuaelberhe/gibbon/sonatype.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.10.13 13:49:28 INFO  no build target found for /Users/eyuaelberhe/gibbon/sonatype.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.10.13 13:49:28 WARN  no build target for: /Users/eyuaelberhe/gibbon/sonatype.sbt
+2025.10.13 13:49:28 INFO  no build target found for /Users/eyuaelberhe/gibbon/sonatype.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.10.13 13:49:28 INFO  no build target found for /Users/eyuaelberhe/gibbon/sonatype.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+Oct 13, 2025 1:50:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.13 13:54:27 INFO  compiling core-test (1 scala source)
+2025.10.13 13:54:28 INFO  time: compiled core-test in 1.13s
+Oct 13, 2025 1:55:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.13 13:56:15 INFO  compiling core-test (1 scala source)
+2025.10.13 13:56:15 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details
+2025.10.13 13:56:15 INFO  time: compiled core-test in 0.55s
+2025.10.13 13:56:25 INFO  compiling core-test (1 scala source)
+2025.10.13 13:56:25 INFO  time: compiled core-test in 0.15s
+2025.10.13 13:56:25 INFO  compiling core-test (1 scala source)
+2025.10.13 13:56:25 INFO  time: compiled core-test in 72ms
+2025.10.13 13:56:36 INFO  compiling core-test (2 scala sources)
+2025.10.13 13:56:36 INFO  time: compiled core-test in 0.14s
+2025.10.13 13:57:43 INFO  compiling core-test (2 scala sources)
+2025.10.13 13:57:43 INFO  time: compiled core-test in 0.11s
+2025.10.13 13:58:17 INFO  compiling core-test (2 scala sources)
+2025.10.13 13:58:17 WARN  4 deprecations (since 2.13.3); re-run with -deprecation for details
+2025.10.13 13:58:17 INFO  time: compiled core-test in 0.51s
+Oct 13, 2025 2:00:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:05:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.13 14:09:56 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedRedisEventStoreSpec.scala
+2025.10.13 14:09:56 INFO  compiling core-test (1 scala source)
+2025.10.13 14:09:56 INFO  time: compiled core-test in 0.91s
+2025.10.13 14:10:00 INFO  compiling core-test (1 scala source)
+2025.10.13 14:10:00 INFO  time: compiled core-test in 0.41s
+Oct 13, 2025 2:10:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.13 14:10:06 INFO  compiling core-test (1 scala source)
+2025.10.13 14:10:06 INFO  time: compiled core-test in 0.44s
+2025.10.13 14:10:35 INFO  compiling core-test (1 scala source)
+2025.10.13 14:10:35 INFO  time: compiled core-test in 0.61s
+2025.10.13 14:10:46 INFO  compiling core-test (1 scala source)
+2025.10.13 14:10:47 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/flows/CircuitBreakerFlowSpec.scala
+2025.10.13 14:10:46 WARN  3 deprecations (since 2.13.3); re-run with -deprecation for details
+2025.10.13 14:10:46 INFO  time: compiled core-test in 0.4s
+Oct 13, 2025 2:15:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:20:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:25:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2025 2:30:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.13 14:32:34 INFO  compiling core-test (1 scala source)
+2025.10.13 14:32:36 INFO  time: compiled core-test in 1.46s
+2025.10.13 14:34:28 INFO  compiling core-test (1 scala source)
+2025.10.13 14:34:28 INFO  time: compiled core-test in 0.24s
+2025.10.13 14:34:33 INFO  compiling core-test (1 scala source)
+2025.10.13 14:34:33 INFO  time: compiled core-test in 0.14s
+Oct 13, 2025 2:35:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.10.13 14:35:03 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-13/r_empty-definition_(core-test)_14-35-03-205.md")
+2025.10.13 14:35:03 INFO  Created report: Optional[file:///Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala]
+2025.10.13 14:35:03 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-13/r_empty-definition_(core-test)_14-35-03-205.md")
+2025.10.13 14:35:03 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/eyuaelberhe/gibbon/.metals/.reports/metals-full/2025-10-13/r_empty-definition_(core-test)_14-35-03-205.md")
+2025.10.13 14:35:09 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:09 INFO  time: compiled core-test in 0.83s
+2025.10.13 14:35:18 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:18 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:18 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:18 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:18 INFO  time: compiled core-test in 0.11s
+2025.10.13 14:35:18 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:29 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:29 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:29 INFO  time: compiled core-test in 0.15s
+2025.10.13 14:35:29 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:30 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:30 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:30 INFO  time: compiled core-test in 0.15s
+2025.10.13 14:35:31 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:30 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:31 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:30 INFO  time: compiled core-test in 89ms
+2025.10.13 14:35:32 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:32 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:32 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:32 INFO  time: compiled core-test in 73ms
+2025.10.13 14:35:33 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:32 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:33 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:32 INFO  time: compiled core-test in 81ms
+2025.10.13 14:35:33 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:42 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:42 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:42 INFO  time: compiled core-test in 94ms
+2025.10.13 14:35:42 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:44 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:44 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:44 INFO  time: compiled core-test in 68ms
+2025.10.13 14:35:44 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:44 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:44 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:44 INFO  time: compiled core-test in 0.12s
+2025.10.13 14:35:45 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:50 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:51 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:51 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:51 INFO  time: compiled core-test in 0.11s
+2025.10.13 14:35:51 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:52 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:53 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:52 INFO  time: compiled core-test in 98ms
+2025.10.13 14:35:53 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:52 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:52 INFO  time: compiled core-test in 49ms
+2025.10.13 14:35:53 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:57 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:57 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:57 INFO  time: compiled core-test in 50ms
+2025.10.13 14:35:58 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:58 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:58 INFO  time: compiled core-test in 45ms
+2025.10.13 14:35:58 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:59 INFO  compiling core-test (1 scala source)
+2025.10.13 14:35:59 WARN  Could not load snapshot text for /Users/eyuaelberhe/gibbon/gibbon-core/src/test/scala/gibbon/operations/event_store/versioned/VersionedEventStoreSpec.scala
+2025.10.13 14:35:59 INFO  time: compiled core-test in 0.52s
